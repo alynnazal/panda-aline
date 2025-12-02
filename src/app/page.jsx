@@ -31,10 +31,8 @@ export default function Home() {
       <WhyWeAreOne />
 
       {/* counter */}
-      <CounterOne />
 
       {/* brand */}
-      <BrandOne />
 
       {/* team */}
       <TeamOne />
