@@ -49,8 +49,8 @@
   --tg-heading-line-height: 1.2;
   --tg-body-color: #445374;
   --tg-heading-color: #002169;
-  --tg-theme-primary: #894b8d;
-  --tg-theme-secondary: #002169;
+  --tg-theme-primary: #eb0016;
+  --tg-theme-secondary: #000;
   --tg-color-dark-blue: #0e104b;
   --tg-color-dark-blue-2: #001950;
   --tg-color-light-blue: #37528e;
@@ -494,7 +494,8 @@ textarea {
   transform: translateY(-2.5px);
 }
 .btn svg path {
-  transition: transform 0.38s cubic-bezier(0.37, 0.08, 0.02, 0.93),
+  transition:
+    transform 0.38s cubic-bezier(0.37, 0.08, 0.02, 0.93),
     opacity 0.18s ease-out;
 }
 .btn svg path:nth-of-type(1) {
@@ -784,9 +785,15 @@ textarea {
   -ms-transform: translateY(calc(-100% - 80px));
   -o-transform: translateY(calc(-100% - 80px));
   transform: translateY(calc(-100% - 80px));
-  -webkit-transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  -moz-transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -webkit-transition:
+    transform 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+  -moz-transition:
+    transform 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+  transition:
+    transform 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
   transition-delay: 0.5s;
 }
 .search__popup.search-opened {
@@ -1883,7 +1890,6 @@ textarea {
   font-size: 16px;
   gap: 5px;
   padding: 17px 24px 15px 24px;
-  background: linear-gradient(90deg, #80397e 5.39%, #9f59a4 100%);
 }
 .tgmenu__action ul .header-btn .btn i {
   line-height: 0;
@@ -6313,7 +6319,9 @@ textarea {
   border-radius: 50%;
   font-size: 18px;
   transform: translateX(20px);
-  transition: visibility 0.3s ease-out 0.1s, opacity 0.3s ease-out 0.15s,
+  transition:
+    visibility 0.3s ease-out 0.1s,
+    opacity 0.3s ease-out 0.15s,
     transform 0.3s ease-out 0.1s;
   transition-delay: 0.1s;
   opacity: 0;
@@ -9103,7 +9111,9 @@ textarea {
   gap: 10px;
 }
 .team__social .list-wrap li {
-  transition: visibility 0.3s ease-out 0.1s, opacity 0.3s ease-out 0.15s,
+  transition:
+    visibility 0.3s ease-out 0.1s,
+    opacity 0.3s ease-out 0.15s,
     transform 0.3s ease-out 0.1s;
   opacity: 0;
   visibility: hidden;

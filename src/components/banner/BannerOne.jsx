@@ -56,20 +56,6 @@ export const BannerOne = () => {
                 data-aos="fade-left"
                 data-aos-delay="800"
               />
-              <div
-                className="healthy-pets"
-                data-aos="zoom-in"
-                data-aos-delay="1000"
-              >
-                <div className="icon">
-                  <img src={petIcon01} alt="" className="injectable" />
-                </div>
-                <div className="content">
-                  <h6 className="circle rotateme">
-                    BETTER - HEALTHY - PETS - LOVE -
-                  </h6>
-                </div>
-              </div>
             </div>
           </div>
         </div>

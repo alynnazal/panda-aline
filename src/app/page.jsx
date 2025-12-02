@@ -44,7 +44,6 @@ export default function Home() {
       <RegistrationOne />
 
       {/* blog */}
-      <BlogOne />
 
       {/* insta */}
       <InstagramOne />

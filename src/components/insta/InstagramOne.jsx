@@ -44,7 +44,7 @@ export const InstagramOne = () => {
   };
 
   return (
-    <div className="instagram__area">
+    <div className="instagram__area py-5">
       <div className="container">
         <div className="row">
           <div className="col-12">
