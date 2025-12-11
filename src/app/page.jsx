@@ -41,12 +41,10 @@ export default function Home() {
       <TestimonialOne />
 
       {/* registration */}
-      <RegistrationOne />
 
       {/* blog */}
 
       {/* insta */}
-      <InstagramOne />
     </Layout>
   );
 }

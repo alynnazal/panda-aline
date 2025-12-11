@@ -47,32 +47,6 @@ export const TestimonialOne = () => {
               <div className="mask-img testimonial__img-mask">
                 <img src={testimonialImg} alt="img" />
               </div>
-              <div className="testimonial__img-shape">
-                <div className="shape-one">
-                  <img
-                    src={testimonialImgShape}
-                    alt=""
-                    className="injectable"
-                  />
-                </div>
-                <div className="shape-two">
-                  <img
-                    src={testimonialShape03}
-                    alt="img"
-                    className="alltuchtopdown"
-                  />
-                </div>
-              </div>
-              <div className="review__box">
-                <div className="review__box-shape">
-                  <img src={reviewShape} alt="" className="injectable" />
-                </div>
-                <div className="review__box-content">
-                  <img src={starIcon} alt="" className="injectable" />
-                  <h2 className="title">1500+</h2>
-                  <span>Reviews</span>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -138,20 +112,6 @@ export const TestimonialOne = () => {
       </div>
 
       {/* shapes */}
-      <div className="testimonial__shape-wrap">
-        <img
-          src={testimonialShape01}
-          alt="img"
-          data-aos="fade-down-right"
-          data-aos-delay="400"
-        />
-        <img
-          src={testimonialShape02}
-          alt="img"
-          data-aos="fade-right"
-          data-aos-delay="400"
-        />
-      </div>
     </section>
   );
 };
