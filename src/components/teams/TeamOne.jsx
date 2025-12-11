@@ -67,14 +67,6 @@ export const TeamOne = () => {
             />
           ))}
         </div>
-
-        <div className="team__bottom-content">
-          <p>Our Valuable Expert Doctors Team</p>
-          <Link href="/team" className="btn">
-            See All Doctors
-            <img src={rightArrow} alt="right arrow" className="injectable" />
-          </Link>
-        </div>
       </div>
     </section>
   );
