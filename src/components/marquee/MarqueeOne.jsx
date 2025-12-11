@@ -7,19 +7,19 @@ export const MarqueeOne = () => {
   const box = (
     <div className="marquee__box">
       <Link href="/contact">
-        Book For Online Appointment
+        Fahrdienst jetzt buchen
         <img src={marqueeIcon} alt="Marquee Icon" />
       </Link>
       <Link href="/contact">
-        Book For Online Appointment
+        Fahrdienst jetzt buchen
         <img src={marqueeIcon} alt="Marquee Icon" />
       </Link>
       <Link href="/contact">
-        Book For Online Appointment
+        Fahrdienst jetzt buchen
         <img src={marqueeIcon} alt="Marquee Icon" />
       </Link>
       <Link href="/contact">
-        Book For Online Appointment
+        Fahrdienst jetzt buchen
         <img src={marqueeIcon} alt="Marquee Icon" />
       </Link>
     </div>

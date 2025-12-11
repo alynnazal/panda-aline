@@ -98,7 +98,7 @@ export default function Contact() {
                   id="contact-form"
                   className="contact__form"
                 >
-                  <h2 className="title">Post a comment</h2>
+                  <h2 className="title">Deine Fahrdienst-Schnellanfrage</h2>
                   <span>
                     Your email address will not be published. Required fields
                     are marked *

@@ -10,7 +10,7 @@ export const RegistrationOne = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="registration__inner-wrap">
-              <h2 className="title">Schedule a visit today!</h2>
+              <h2 className="title">nutzen Sie unseren unkomplizierten Rückrufservice!</h2>
               <div className="shape">
                 <img src={registrationShape} alt="" />
               </div>
@@ -76,7 +76,7 @@ export const RegistrationOne = () => {
                 </div>
                 <div className="submit__btn text-center mt-25">
                   <button type="submit" className="btn">
-                    Start a Reservation
+                    Jetzt Ruckruf anfordern
                     <img src={rightArrow} alt="" className="injectable" />
                   </button>
                 </div>

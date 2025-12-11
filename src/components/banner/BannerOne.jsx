@@ -25,17 +25,15 @@ export const BannerOne = () => {
           <div className="col-xl-5 col-lg-6">
             <div className="banner__content">
               <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                Trusted Pet
-                <img src={titleImg01} alt="" />
-                care & Veterinary Center
-                <span className="icon">
-                  <img src={titleImg02} alt="" />
-                </span>
-                Point
+                Behindertenfahrdienst & Schülerbeförderung in Berlin & Brandenburg
+                
               </h2>
               <p data-aos="fade-up" data-aos-delay="400">
-                Template Kit uses demo images from Envato Elements Follower will
-                need to license these images from Envato.
+                Fahrdienst Panda bietet sicheren Behindertentransport und Schülerbeförderung in Berlin
+und Brandenburg.Unsere speziell geschulten Fahrerinnen bringen Kinder, Seniorinnen und Menschen mit
+Behinderung in rollstuhlgerechten Fahrzeugen zuverlässig und pünktlich ans Ziel – ob zur
+Schule, Arbeit, Fördereinrichtung oder Tagesstätte.
+
               </p>
               <Link
                 href="/about"

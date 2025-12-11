@@ -14,23 +14,23 @@ export const TeamOne = () => {
   const teamMembers = [
     {
       src: teamImg01,
-      name: "Daria Andaloro",
-      designation: "Veterinary Technician",
+      name: "Autismusbeförderung",
+      designation: "Mit Ruhe, Geduld und festen Abläufen sorgt Fahrdienst Panda für eine vertraute und sichere Beforderung von Menschen mit Autisms .",
     },
     {
       src: teamImg02,
-      name: "Michael Brian",
-      designation: "Medicine Specialist",
+      name: "Behindertenbeförderung",
+      designation: "Mit viel Geduld und Verständnis bringen wir Menschen mit körperlicher oder geistiger Einschränkung sicher und bequem ans Zielob zur Schule, Arbeit, Werkstatt, Arzt, Fördereinrichtung oder Tagesstätte.",
     },
     {
       src: teamImg03,
-      name: "Kenroly Gajon",
-      designation: "Food Technician",
+      name: "Schülerbeförderung",
+      designation: "Zuverlässig wird dein Kind zur Schule und wieder nach Hause gefahren freundlich, pünktlich und sicher.",
     },
     {
       src: teamImg04,
-      name: "Lizay Arianya",
-      designation: "Veterinary Technician",
+      name: "Seniorenbeförderung",
+      designation: "Sicher und bequem befördern wir Senioren zum Arzt, zur Tagespflege oder zur Familie mit Geduld, Zeit und einem Lächeln.",
     },
   ];
 
@@ -42,14 +42,11 @@ export const TeamOne = () => {
           <div className="col-lg-6">
             <div className="section__title text-center mb-40">
               <span className="sub-title">
-                WE CHANGE YOUR LIFE & WORLD
-                <strong className="shake">
-                  <img src={petIcon} alt="" className="injectable" />
-                </strong>
+                Fahrdienst Panda Berlin
+                
               </span>
               <h2 className="title">
-                Meet Our Expertise <br />
-                Pet Doctors
+                Leistungen unseres Fahrdienstes
               </h2>
             </div>
           </div>

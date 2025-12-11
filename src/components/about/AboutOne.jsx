@@ -45,14 +45,14 @@ export const AboutOne = () => {
             <div className="about__content">
               <div className="section__title mb-20">
                 <span className="sub-title">
-                  Know More Us
+                  Mehr Uber Uns
                   <strong className="shake">
                     <img src={petIcon} alt="" className="injectable" />
                   </strong>
                 </span>
                 <h2 className="title">
-                  Our Passion Is Providing <br />
-                  Superior Pet Care
+                  Dein zuverlässiger Fahrdienst in Berlin & Brandenburg <br />
+
                 </h2>
               </div>
               <div className="about__content-inner">
@@ -68,16 +68,12 @@ export const AboutOne = () => {
                   </div>
                 </div>
                 <p>
-                  Come see how I’m styling these final days of summer with
-                  bright palettes and pops of color that will dazzle your
-                  wardrobe year round!
+                  Fahrdienst Panda ist Ihr Spezialist für die regelmäßige werktägliche Förderung von Menschen mit Behinderung zur Arbeitsstätte, Therapie oder Tagesstätte in Berlin und Brandenburg. Unser Personal wird sorgfältig ausgewählt und geschult.
                 </p>
               </div>
               <p>
-                We will work with you to develop individualised care plans,
-                including management of chronic diseases. We are committed to
-                being the region’s premier healthcare network providing patient
-                centered care that inspires.
+                Alle Mitarbeiter/-innen zeichnen sich durch hohe Zuverlässigkeit, Freundlichkeit und Hilfsbereitschaft aus. Gern beraten wir Sie telefonisch und erstellen Ihnen ein kostenloses und unverbindliches Angebot zur Vorlage beim Kostenträger.
+Wenn Sie Interesse haben, uns als Fahrer zu unterstützen, melden Sie sich gerne!
               </p>
               <div className="about__content-bottom">
                 <div className="about__content-sign">

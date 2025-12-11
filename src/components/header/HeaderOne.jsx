@@ -60,12 +60,7 @@ export const HeaderOne = () => {
                             <i className="flaticon-loupe"></i>
                           </a>
                         </li>
-                        <li className="header-cart">
-                          <a href="#">
-                            <i className="flaticon-shopping-bag"></i>
-                            <span>0</span>
-                          </a>
-                        </li>
+                    
 
                         <li className="offCanvas-menu">
                           <a
@@ -124,7 +119,7 @@ export const HeaderOne = () => {
 
                         <li className="header-btn">
                           <Link href="/contact" className="btn">
-                            <i className="flaticon-calendar-1"></i>Appointment
+                            <i className="flaticon-calendar-1"></i>JETZT FAHRT anfragen
                           </Link>
                         </li>
                       </ul>

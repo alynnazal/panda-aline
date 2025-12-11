@@ -48,21 +48,20 @@ export const WhyWeAreOne = () => {
             <div className="why__we-are-content">
               <div className="section__title mb-10">
                 <span className="sub-title">
-                  Why We are The Best
+                  WARUM WIR DIE BESTE WAHL SIND
                   <strong className="shake">
                     <img src={petIcon} alt="" className="injectable" />
                   </strong>
                 </span>
                 <h2 className="title">
-                  Pet emergencies <br />
-                  what you need to know.
+                  Barrierefreier Fahrdienst <br />
+                  Alles, was Sie wissen müssen
+
                 </h2>
               </div>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                We understand that your furry friend is a treasured member of
-                your family and deserves pets are the best care and attention
-                possible.
+                Wir bieten sichere, zuverlässige und barrierefreie Beförderung für Menschen mit Behinderung in Berlin & Brandenburg.
+                Unser Team sorgt dafür, dass jede Fahrt komfortabel, pünktlich und individuell auf Ihre Bedürfnisse abgestimmt ist.
               </p>
 
               <div className="why__list-box">
@@ -73,11 +72,10 @@ export const WhyWeAreOne = () => {
                         <div className="icon">
                           <img src={checkIcon} alt="" className="injectable" />
                         </div>
-                        <h4 className="title">More Experience</h4>
+                        <h4 className="title">Mehr Erfahrung</h4>
                       </div>
                       <p>
-                        Be confident in the treatment plan and your doctor’s
-                        abilities.
+                        Unsere geschulten Fahrer:innen kennen die speziellen Anforderungen von Menschen mit Mobilitätseinschränkungen.
                       </p>
                     </div>
                   </li>
@@ -87,11 +85,10 @@ export const WhyWeAreOne = () => {
                         <div className="icon">
                           <img src={checkIcon} alt="" className="injectable" />
                         </div>
-                        <h4 className="title">Affordable Pricing</h4>
+                        <h4 className="title">Barrierefreie Fahrzeuge</h4>
                       </div>
                       <p>
-                        Be confident in the treatment plan and your doctor’s
-                        abilities.
+                        Unsere Fahrzeuge sind rollstuhlgerecht ausgestattet und erfüllen alle Sicherheitsstandards.
                       </p>
                     </div>
                   </li>
@@ -101,11 +98,10 @@ export const WhyWeAreOne = () => {
                         <div className="icon">
                           <img src={checkIcon} alt="" className="injectable" />
                         </div>
-                        <h4 className="title">Modern Pet Training</h4>
+                        <h4 className="title">Unterstützung im Alltag</h4>
                       </div>
                       <p>
-                        Be confident in the treatment plan and your doctor’s
-                        abilities.
+                        Wir helfen Ihnen dabei, Termine, Therapien und tägliche Wege problemlos zu erreichen.
                       </p>
                     </div>
                   </li>
@@ -115,11 +111,10 @@ export const WhyWeAreOne = () => {
                         <div className="icon">
                           <img src={checkIcon} alt="" className="injectable" />
                         </div>
-                        <h4 className="title">Maintain a daily routine</h4>
+                        <h4 className="title">24/7 Verfügbarkeit</h4>
                       </div>
                       <p>
-                        Be confident in the treatment plan and your doctor’s
-                        abilities.
+                        Wir sind rund um die Uhr für Sie erreichbar, auch an Wochenenden und Feiertagen.
                       </p>
                     </div>
                   </li>
