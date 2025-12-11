@@ -17,30 +17,6 @@ export const WhyWeAreOne = () => {
           <div className="col-lg-6 col-md-8 col-sm-10">
             <div className="why__we-are-img">
               <img src={whyWeAreImg} alt="" />
-              <div
-                className="shape shape-one"
-                data-aos="fade-down-right"
-                data-aos-delay="500"
-              >
-                <img src={whyShape1} alt="" className="injectable" />
-              </div>
-              <div
-                className="shape shape-two"
-                data-aos="fade-up-right"
-                data-aos-delay="500"
-              >
-                <img src={whyShape2} alt="" className="injectable" />
-              </div>
-              <div
-                className="shape shape-three"
-                data-aos="fade-up-left"
-                data-aos-delay="500"
-              >
-                <img src={whyShape3} alt="" className="injectable" />
-              </div>
-              <div className="shape shape-four ribbonRotate">
-                <img src={whyShape4} alt="" className="injectable" />
-              </div>
             </div>
           </div>
 
@@ -56,12 +32,13 @@ export const WhyWeAreOne = () => {
                 <h2 className="title">
                   Barrierefreier Fahrdienst <br />
                   Alles, was Sie wissen müssen
-
                 </h2>
               </div>
               <p>
-                Wir bieten sichere, zuverlässige und barrierefreie Beförderung für Menschen mit Behinderung in Berlin & Brandenburg.
-                Unser Team sorgt dafür, dass jede Fahrt komfortabel, pünktlich und individuell auf Ihre Bedürfnisse abgestimmt ist.
+                Wir bieten sichere, zuverlässige und barrierefreie Beförderung
+                für Menschen mit Behinderung in Berlin & Brandenburg. Unser Team
+                sorgt dafür, dass jede Fahrt komfortabel, pünktlich und
+                individuell auf Ihre Bedürfnisse abgestimmt ist.
               </p>
 
               <div className="why__list-box">
@@ -75,7 +52,9 @@ export const WhyWeAreOne = () => {
                         <h4 className="title">Mehr Erfahrung</h4>
                       </div>
                       <p>
-                        Unsere geschulten Fahrer:innen kennen die speziellen Anforderungen von Menschen mit Mobilitätseinschränkungen.
+                        Unsere geschulten Fahrer:innen kennen die speziellen
+                        Anforderungen von Menschen mit
+                        Mobilitätseinschränkungen.
                       </p>
                     </div>
                   </li>
@@ -88,7 +67,8 @@ export const WhyWeAreOne = () => {
                         <h4 className="title">Barrierefreie Fahrzeuge</h4>
                       </div>
                       <p>
-                        Unsere Fahrzeuge sind rollstuhlgerecht ausgestattet und erfüllen alle Sicherheitsstandards.
+                        Unsere Fahrzeuge sind rollstuhlgerecht ausgestattet und
+                        erfüllen alle Sicherheitsstandards.
                       </p>
                     </div>
                   </li>
@@ -101,7 +81,8 @@ export const WhyWeAreOne = () => {
                         <h4 className="title">Unterstützung im Alltag</h4>
                       </div>
                       <p>
-                        Wir helfen Ihnen dabei, Termine, Therapien und tägliche Wege problemlos zu erreichen.
+                        Wir helfen Ihnen dabei, Termine, Therapien und tägliche
+                        Wege problemlos zu erreichen.
                       </p>
                     </div>
                   </li>
@@ -114,7 +95,8 @@ export const WhyWeAreOne = () => {
                         <h4 className="title">24/7 Verfügbarkeit</h4>
                       </div>
                       <p>
-                        Wir sind rund um die Uhr für Sie erreichbar, auch an Wochenenden und Feiertagen.
+                        Wir sind rund um die Uhr für Sie erreichbar, auch an
+                        Wochenenden und Feiertagen.
                       </p>
                     </div>
                   </li>

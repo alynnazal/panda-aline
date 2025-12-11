@@ -4,7 +4,10 @@ import Link from "next/link";
 const shapeOne = "/team/team_img_shape01.svg";
 const shapeTwo = "/team/team_img_shape02.svg";
 
-export const TeamOneItem = ({ src, name, designation }) => {
+export const TeamOneItem = ({ id, href, src, name, designation }) => {
+  // Use href if provided, otherwise construct from id
+  const linkHref = href || (id ? `/team/${id}` : "#");
+
   return (
     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
       <div className="team__item">
@@ -12,14 +15,7 @@ export const TeamOneItem = ({ src, name, designation }) => {
           <div className="mask-img-wrap">
             <img src={src} alt="team member" />
           </div>
-          <div className="team__item-img-shape">
-            <div className="shape-one">
-              <img src={shapeOne} alt="shape" className="injectable" />
-            </div>
-            <div className="shape-two">
-              <img src={shapeTwo} alt="shape" className="injectable" />
-            </div>
-          </div>
+
           <div className="team__social">
             <ul className="list-wrap">
               <li>
@@ -72,7 +68,7 @@ export const TeamOneItem = ({ src, name, designation }) => {
         </div>
         <div className="team__item-content">
           <h4 className="title">
-            <Link href="/team/t-123">{name}</Link>
+            <Link href={linkHref}>{name}</Link>
           </h4>
           <span>{designation}</span>
         </div>

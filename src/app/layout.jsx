@@ -25,7 +25,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata = {
-  title: "Petpal - Pet Care and Pet Shop NextJS Template",
+  title: "fahrdienst-panda.de",
 };
 
 export default function RootLayout({ children }) {

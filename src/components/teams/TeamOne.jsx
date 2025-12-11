@@ -14,23 +14,31 @@ export const TeamOne = () => {
   const teamMembers = [
     {
       src: teamImg01,
+      href: "/team/t-123",
       name: "Autismusbeförderung",
-      designation: "Mit Ruhe, Geduld und festen Abläufen sorgt Fahrdienst Panda für eine vertraute und sichere Beforderung von Menschen mit Autisms .",
+      designation:
+        "Mit Ruhe, Geduld und festen Abläufen sorgt Fahrdienst Panda für eine vertraute und sichere Beforderung von Menschen mit Autisms .",
     },
     {
       src: teamImg02,
       name: "Behindertenbeförderung",
-      designation: "Mit viel Geduld und Verständnis bringen wir Menschen mit körperlicher oder geistiger Einschränkung sicher und bequem ans Zielob zur Schule, Arbeit, Werkstatt, Arzt, Fördereinrichtung oder Tagesstätte.",
+      href: "/team/t-234",
+      designation:
+        "Mit viel Geduld und Verständnis bringen wir Menschen mit körperlicher oder geistiger Einschränkung sicher und bequem ans Zielob zur Schule, Arbeit, Werkstatt, Arzt, Fördereinrichtung oder Tagesstätte.",
     },
     {
       src: teamImg03,
       name: "Schülerbeförderung",
-      designation: "Zuverlässig wird dein Kind zur Schule und wieder nach Hause gefahren freundlich, pünktlich und sicher.",
+      href: "/team/t-345",
+      designation:
+        "Zuverlässig wird dein Kind zur Schule und wieder nach Hause gefahren freundlich, pünktlich und sicher.",
     },
     {
       src: teamImg04,
       name: "Seniorenbeförderung",
-      designation: "Sicher und bequem befördern wir Senioren zum Arzt, zur Tagespflege oder zur Familie mit Geduld, Zeit und einem Lächeln.",
+      href: "/team/t-546",
+      designation:
+        "Sicher und bequem befördern wir Senioren zum Arzt, zur Tagespflege oder zur Familie mit Geduld, Zeit und einem Lächeln.",
     },
   ];
 
@@ -41,13 +49,8 @@ export const TeamOne = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section__title text-center mb-40">
-              <span className="sub-title">
-                Fahrdienst Panda Berlin
-                
-              </span>
-              <h2 className="title">
-                Leistungen unseres Fahrdienstes
-              </h2>
+              <span className="sub-title">Fahrdienst Panda Berlin</span>
+              <h2 className="title">Leistungen unseres Fahrdienstes</h2>
             </div>
           </div>
         </div>
@@ -57,6 +60,7 @@ export const TeamOne = () => {
           {teamMembers.map((member, index) => (
             <TeamOneItem
               key={index}
+              href={member.href}
               src={member.src}
               name={member.name}
               designation={member.designation}
@@ -71,11 +75,6 @@ export const TeamOne = () => {
             <img src={rightArrow} alt="right arrow" className="injectable" />
           </Link>
         </div>
-      </div>
-
-      {/* shape */}
-      <div className="team__shape">
-        <img src={teamShape} alt="shape" className="ribbonRotate" />
       </div>
     </section>
   );

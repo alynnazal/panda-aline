@@ -52,7 +52,6 @@ export const AboutOne = () => {
                 </span>
                 <h2 className="title">
                   Dein zuverlässiger Fahrdienst in Berlin & Brandenburg <br />
-
                 </h2>
               </div>
               <div className="about__content-inner">
@@ -68,66 +67,24 @@ export const AboutOne = () => {
                   </div>
                 </div>
                 <p>
-                  Fahrdienst Panda ist Ihr Spezialist für die regelmäßige werktägliche Förderung von Menschen mit Behinderung zur Arbeitsstätte, Therapie oder Tagesstätte in Berlin und Brandenburg. Unser Personal wird sorgfältig ausgewählt und geschult.
+                  Fahrdienst Panda ist Ihr Spezialist für die regelmäßige
+                  werktägliche Förderung von Menschen mit Behinderung zur
+                  Arbeitsstätte, Therapie oder Tagesstätte in Berlin und
+                  Brandenburg. Unser Personal wird sorgfältig ausgewählt und
+                  geschult.
                 </p>
               </div>
               <p>
-                Alle Mitarbeiter/-innen zeichnen sich durch hohe Zuverlässigkeit, Freundlichkeit und Hilfsbereitschaft aus. Gern beraten wir Sie telefonisch und erstellen Ihnen ein kostenloses und unverbindliches Angebot zur Vorlage beim Kostenträger.
-Wenn Sie Interesse haben, uns als Fahrer zu unterstützen, melden Sie sich gerne!
+                Alle Mitarbeiter/-innen zeichnen sich durch hohe
+                Zuverlässigkeit, Freundlichkeit und Hilfsbereitschaft aus. Gern
+                beraten wir Sie telefonisch und erstellen Ihnen ein kostenloses
+                und unverbindliches Angebot zur Vorlage beim Kostenträger. Wenn
+                Sie Interesse haben, uns als Fahrer zu unterstützen, melden Sie
+                sich gerne!
               </p>
-              <div className="about__content-bottom">
-                <div className="about__content-sign">
-                  <img src={authorSign} alt="" />
-                </div>
-                <div className="customer__review">
-                  <div className="customer__review-img">
-                    <ul className="list-wrap">
-                      <li>
-                        <img src={author1} alt="" />
-                      </li>
-                      <li>
-                        <img src={author2} alt="" />
-                      </li>
-                      <li>
-                        <img src={author3} alt="" />
-                      </li>
-                      <li>
-                        <img src={author4} alt="" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="customer__review-content">
-                    <div className="rating">
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                    </div>
-                    <span>4.7 (1,567 Reviews)</span>
-                  </div>
-                </div>
-              </div>
-              <div className="shape">
-                <img
-                  src={aboutShape2}
-                  alt="img"
-                  data-aos="fade-down-left"
-                  data-aos-delay="400"
-                />
-              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="about__shape-wrap">
-        <img
-          src={aboutShape1}
-          alt="img"
-          data-aos="fade-up-right"
-          data-aos-delay="800"
-        />
-        <img src={aboutShape3} alt="img" className="ribbonRotate" />
       </div>
     </section>
   );

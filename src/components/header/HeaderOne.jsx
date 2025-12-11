@@ -13,7 +13,7 @@ import {
   useSearch,
 } from "../../lib/hooks/useHeader";
 
-const LOGO = "/logo/logo.png";
+const LOGO = "/logo/logopanda.svg";
 
 export const HeaderOne = () => {
   const { showSearch, toggleSearch } = useSearch();
@@ -37,7 +37,7 @@ export const HeaderOne = () => {
                   <nav className="tgmenu__nav">
                     <div className="logo">
                       <Link href="/">
-                        <img src={LOGO} alt="Logo" />
+                        <img src={LOGO} alt="Logo" width={200} height={100} />
                       </Link>
                     </div>
 
@@ -60,7 +60,6 @@ export const HeaderOne = () => {
                             <i className="flaticon-loupe"></i>
                           </a>
                         </li>
-                    
 
                         <li className="offCanvas-menu">
                           <a
@@ -119,7 +118,8 @@ export const HeaderOne = () => {
 
                         <li className="header-btn">
                           <Link href="/contact" className="btn">
-                            <i className="flaticon-calendar-1"></i>JETZT FAHRT anfragen
+                            <i className="flaticon-calendar-1"></i>JETZT FAHRT
+                            anfragen
                           </Link>
                         </li>
                       </ul>

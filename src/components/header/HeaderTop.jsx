@@ -11,7 +11,6 @@ export const HeaderTop = () => {
             <ul className="tg-header__top-info left-side list-wrap">
               <li>
                 <i className="flaticon-placeholder"></i> +49 176 63263948
-            
               </li>
               <li>
                 <i className="flaticon-mail"></i>
@@ -24,26 +23,8 @@ export const HeaderTop = () => {
           <div className="col-xl-6 col-lg-4">
             <ul className="tg-header__top-right list-wrap">
               <li>
-                <i className="flaticon-three-o-clock-clock"></i>Wir sind 24/7 für Sie da
-              </li>
-              <li className="tg-header__top-social">
-                <ul className="list-wrap">
-                  <li>
-                    
-                  </li>
-                  <li>
-                   
-                  </li>
-                  <li>
-                    
-                  </li>
-                  <li>
-                    
-                  </li>
-                  <li>
-                    
-                  </li>
-                </ul>
+                <i className="flaticon-three-o-clock-clock"></i>Wir sind 24/7
+                für Sie da
               </li>
             </ul>
           </div>

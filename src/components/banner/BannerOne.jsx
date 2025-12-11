@@ -25,15 +25,16 @@ export const BannerOne = () => {
           <div className="col-xl-5 col-lg-6">
             <div className="banner__content">
               <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                Behindertenfahrdienst & Schülerbeförderung in Berlin & Brandenburg
-                
+                Behindertenfahrdienst & Schülerbeförderung in Berlin &
+                Brandenburg
               </h2>
               <p data-aos="fade-up" data-aos-delay="400">
-                Fahrdienst Panda bietet sicheren Behindertentransport und Schülerbeförderung in Berlin
-und Brandenburg.Unsere speziell geschulten Fahrerinnen bringen Kinder, Seniorinnen und Menschen mit
-Behinderung in rollstuhlgerechten Fahrzeugen zuverlässig und pünktlich ans Ziel – ob zur
-Schule, Arbeit, Fördereinrichtung oder Tagesstätte.
-
+                Fahrdienst Panda bietet sicheren Behindertentransport und
+                Schülerbeförderung in Berlin und Brandenburg.Unsere speziell
+                geschulten Fahrerinnen bringen Kinder, Seniorinnen und Menschen
+                mit Behinderung in rollstuhlgerechten Fahrzeugen zuverlässig und
+                pünktlich ans Ziel – ob zur Schule, Arbeit, Fördereinrichtung
+                oder Tagesstätte.
               </p>
               <Link
                 href="/about"
@@ -57,22 +58,6 @@ Schule, Arbeit, Fördereinrichtung oder Tagesstätte.
             </div>
           </div>
         </div>
-      </div>
-      <div className="banner__shape-wrap">
-        <img
-          src={bannerShape01}
-          alt="img"
-          data-aos="fade-down"
-          data-aos-delay="1200"
-        />
-        <img
-          src={bannerShape02}
-          alt="img"
-          data-aos="fade-up-right"
-          data-aos-delay="1200"
-        />
-        <img src={bannerShape03} alt="img" className="ribbonRotate" />
-        <img src={bannerShape04} alt="img" />
       </div>
     </section>
   );

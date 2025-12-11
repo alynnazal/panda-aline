@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
 import Link from "next/link";
 
 const instaImg1 = "/instagram/instagram_img01.jpg";
@@ -20,29 +19,6 @@ export const InstagramOne = () => {
     { img: instaImg3, alt: "Instagram post 6" },
   ];
 
-  const swiperSettings = {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    breakpoints: {
-      1200: {
-        slidesPerView: 5,
-      },
-      992: {
-        slidesPerView: 4,
-      },
-      768: {
-        slidesPerView: 3,
-      },
-      576: {
-        slidesPerView: 2,
-      },
-      0: {
-        slidesPerView: 1,
-      },
-    },
-  };
-
   return (
     <div className="instagram__area py-5">
       <div className="container">
@@ -55,18 +31,6 @@ export const InstagramOne = () => {
             </div>
           </div>
         </div>
-
-        <Swiper {...swiperSettings} className="instagram-active">
-          {instagramImages.map((image, index) => (
-            <SwiperSlide key={index}>
-              <div className="instagram__item">
-                <Link href="https://www.instagram.com/" target="_blank">
-                  <img src={image.img} alt={image.alt} />
-                </Link>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
       </div>
     </div>
   );

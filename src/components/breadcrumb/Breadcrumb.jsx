@@ -26,31 +26,7 @@ export const Breadcrumb = ({ title, subtitle }) => {
               </nav>
             </div>
           </div>
-          <div className="col-lg-4">
-            <div className="breadcrumb__img">
-              <img
-                src={breadcrumbImg}
-                alt="img"
-                data-aos="fade-left"
-                data-aos-delay="800"
-              />
-            </div>
-          </div>
         </div>
-      </div>
-      <div className="breadcrumb__shape-wrap">
-        <img
-          src={breadcrumbShape1}
-          alt="img"
-          data-aos="fade-down-right"
-          data-aos-delay="400"
-        />
-        <img
-          src={breadcrumbShape2}
-          alt="img"
-          data-aos="fade-up-left"
-          data-aos-delay="400"
-        />
       </div>
     </section>
   );

@@ -6,91 +6,19 @@ const rightArrow = "/icon/right_arrow.svg";
 
 export default function Contact() {
   return (
-    <Layout breadcrumbTitle="Contact Page" breadcrumbSubtitle={"Contact"}>
+    <Layout
+      breadcrumbTitle="Contact Page"
+      breadcrumbSubtitle={"Contact"}
+      header={1}
+      footer={1}
+    >
       <section className="contact__area">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
             {/* info */}
-            <div className="col-lg-5">
-              <div className="contact__content">
-                <div className="section__title mb-30">
-                  <h2 className="title">
-                    We Are Always Available For You & Your Pets
-                  </h2>
-                  <p>
-                    Maecenas quis viverra metus, et efficitur ligula. Nam
-                    coueaugue congue sed luctus lectus conIn onondimentum .
-                  </p>
-                </div>
-                <div className="contact__info-wrap">
-                  <h6 className="title">Information:</h6>
-                  <ul className="list-wrap">
-                    <li>
-                      <div className="icon">
-                        <i className="flaticon-phone"></i>
-                      </div>
-                      <a href="tel:0123456789">+123 8989 444</a>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <i className="flaticon-placeholder"></i>
-                      </div>
-                      256 Avenue, Newyork City
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <i className="flaticon-mail"></i>
-                      </div>
-                      <a href="mailto:info@gmail.com">info@gmail.com</a>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <i className="fas fa-share-alt"></i>
-                      </div>
-                      <ul className="list-wrap contact__social">
-                        <li>
-                          <Link
-                            href="https://www.facebook.com/"
-                            target="_blank"
-                          >
-                            <i className="fab fa-facebook-f"></i>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="https://twitter.com" target="_blank">
-                            <i className="fab fa-twitter"></i>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="https://www.whatsapp.com/"
-                            target="_blank"
-                          >
-                            <i className="fab fa-whatsapp"></i>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="https://www.instagram.com/"
-                            target="_blank"
-                          >
-                            <i className="fab fa-instagram"></i>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="https://www.youtube.com/" target="_blank">
-                            <i className="fab fa-youtube"></i>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
 
             {/* form */}
-            <div className="col-lg-7">
+            <div className="col-lg-10 col-xl-9">
               <div className="contact__form-wrap">
                 <form
                   action="assets/mail.php"
@@ -100,40 +28,233 @@ export default function Contact() {
                 >
                   <h2 className="title">Deine Fahrdienst-Schnellanfrage</h2>
                   <span>
-                    Your email address will not be published. Required fields
-                    are marked *
+                    Ihre E-Mail-Adresse wird nicht veröffentlicht. Pflichtfelder
+                    sind mit * markiert.
                   </span>
                   <div className="row gutter-20">
-                    <div className="col-md-6">
-                      <div className="form-grp">
-                        <input name="name" type="text" placeholder="Name" />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-grp">
-                        <input name="email" type="email" placeholder="E-mail" />
-                      </div>
-                    </div>
                     <div className="col-md-12">
                       <div className="form-grp">
                         <input
-                          name="website"
-                          type="url"
-                          placeholder="Website"
+                          name="name"
+                          type="text"
+                          placeholder="Ihr Name *"
+                          required
                         />
                       </div>
                     </div>
                     <div className="col-md-12">
                       <div className="form-grp">
+                        <input
+                          name="institution"
+                          type="text"
+                          placeholder="Institution/Organisation"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-grp">
+                        <input
+                          name="pickup_address"
+                          type="text"
+                          placeholder="Abholadresse - Straße, Hausnummer, Postleitzahl, Stadt *"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="form-grp">
+                        <label
+                          htmlFor="pickup_time"
+                          style={{
+                            display: "block",
+                            marginBottom: "5px",
+                            fontSize: "14px",
+                            color: "#666",
+                          }}
+                        >
+                          Abholzeit (z.B. 12:00 Uhr)
+                        </label>
+                        <input
+                          id="pickup_time"
+                          name="pickup_time"
+                          type="time"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="form-grp">
+                        <label
+                          htmlFor="collection_day"
+                          style={{
+                            display: "block",
+                            marginBottom: "5px",
+                            fontSize: "14px",
+                            color: "#666",
+                          }}
+                        >
+                          Abholtag (z.B. 12.07.2024)
+                        </label>
+                        <input
+                          id="collection_day"
+                          name="collection_day"
+                          type="date"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-grp">
+                        <input
+                          name="destination_address"
+                          type="text"
+                          placeholder="Zieladresse - Straße, Hausnummer, Postleitzahl, Stadt *"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-grp">
+                        <select name="return_trip">
+                          <option value="">
+                            Rückfahrt hinzufügen? - Bitte wählen Sie:
+                          </option>
+                          <option value="yes">Ja</option>
+                          <option value="no">Nein</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-grp">
+                        <label
+                          htmlFor="return_trip_time"
+                          style={{
+                            display: "block",
+                            marginBottom: "5px",
+                            fontSize: "14px",
+                            color: "#666",
+                          }}
+                        >
+                          Wann soll die Rückfahrt stattfinden? (z.B. 12:00 Uhr)
+                        </label>
+                        <input
+                          id="return_trip_time"
+                          name="return_trip_time"
+                          type="time"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="form-grp">
+                        <input
+                          name="email"
+                          type="email"
+                          placeholder="E-Mail *"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="form-grp">
+                        <input
+                          name="telephone"
+                          type="tel"
+                          placeholder="Telefonnummer *"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-grp">
+                        <select name="transport_type" required>
+                          <option value="">
+                            Art des Transports * - Welche Art von Promotion
+                            möchten Sie?
+                          </option>
+                          <option value="transportation_with_wheelchair">
+                            Transport mit Rollstuhl
+                          </option>
+                          <option value="wheelchair_transport_convertible">
+                            Rollstuhltransport (umrüstbar)
+                          </option>
+                          <option value="transportation_without_wheelchair">
+                            Transport ohne Rollstuhl
+                          </option>
+                          <option value="car_up_to_4_people">
+                            Auto (bis zu 4 Personen)
+                          </option>
+                          <option value="minibus_db_8_persons">
+                            Minibus (DB 8 Personen)
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-grp">
+                        <select name="recurring_trip">
+                          <option value="">
+                            Wiederkehrende Fahrt? - Bitte wählen Sie:
+                          </option>
+                          <option value="yes">Ja</option>
+                          <option value="no">Nein</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-grp">
                         <textarea
-                          name="message"
-                          placeholder="Message"
+                          name="news"
+                          placeholder="News"
+                          rows="4"
                         ></textarea>
                       </div>
                     </div>
                   </div>
                   <button type="submit" className="btn">
-                    Send Us Message
+                    Nachricht senden
+                    <img src={rightArrow} alt="" className="injectable" />
+                  </button>
+                </form>
+                <p className="ajax-response mb-0"></p>
+              </div>
+            </div>
+          </div>
+
+          {/* callback form */}
+          <div className="row justify-content-center">
+            <div className="col-lg-10 col-xl-9">
+              <div className="contact__form-wrap">
+                <form
+                  action="assets/mail.php"
+                  method="POST"
+                  id="callback-form"
+                  className="contact__form"
+                >
+                  <h2 className="title">
+                    Oder nutzen Sie unseren einfachen Rückruf-Service!
+                  </h2>
+                  <div className="row gutter-20">
+                    <div className="col-md-12">
+                      <div className="form-grp">
+                        <input
+                          name="callback_name"
+                          type="text"
+                          placeholder="Ihr Name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-grp">
+                        <input
+                          name="callback_telephone"
+                          type="tel"
+                          placeholder="Telefonnummer"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button type="submit" className="btn">
+                    Rückruf anfordern
                     <img src={rightArrow} alt="" className="injectable" />
                   </button>
                 </form>
@@ -143,15 +264,6 @@ export default function Contact() {
           </div>
 
           {/* map */}
-          <div className="contact-map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48409.69813174607!2d-74.05163325136718!3d40.68264649999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1684309529719!5m2!1sen!2sbd"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
         </div>
       </section>
     </Layout>
