@@ -13,7 +13,6 @@ export const HeaderNav = () => {
 
   return (
     <ul className="navigation">
-
       {/* <li
         className={`menu-item-has-children ${
           isActiveMenu(["/", "/home2", "/home3", "/home4"]) ? "active" : ""
@@ -114,6 +113,9 @@ export const HeaderNav = () => {
       </li> */}
       <li className={pathname === "/contact" ? "active" : ""}>
         <Link href="/contact">contacts</Link>
+      </li>
+      <li className={pathname === "/contact" ? "active" : ""}>
+        <Link href="/service">service</Link>
       </li>
     </ul>
   );
