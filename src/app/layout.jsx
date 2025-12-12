@@ -8,17 +8,11 @@ import "../assets/css/responsive.css";
 import "../assets/css/main.css";
 
 import { ProviderComponent } from "@/components/provider/Provider";
-import { Baloo_Bhaina_2, Plus_Jakarta_Sans } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-// Font configurations
-const balooBhaina2 = Baloo_Bhaina_2({
-  weight: ["400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const plusJakartaSans = Plus_Jakarta_Sans({
-  weight: ["300", "400", "500", "600", "700"],
+// Font configuration
+const montserrat = Montserrat({
+  weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",
@@ -31,8 +25,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   const fontVariables = `
     :root {
-      --tg-body-font-family: ${plusJakartaSans.style.fontFamily};
-      --tg-heading-font-family: ${balooBhaina2.style.fontFamily};
+      --tg-body-font-family: ${montserrat.style.fontFamily};
+      --tg-heading-font-family: ${montserrat.style.fontFamily};
     }
   `;
 
@@ -41,7 +35,7 @@ export default function RootLayout({ children }) {
       <head>
         <style dangerouslySetInnerHTML={{ __html: fontVariables }} />
       </head>
-      <body>
+      <body className={montserrat.className}>
         <ProviderComponent>{children}</ProviderComponent>
       </body>
     </html>
