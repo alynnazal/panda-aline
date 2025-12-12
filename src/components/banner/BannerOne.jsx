@@ -39,7 +39,7 @@ export const BannerOne = () => {
                 oder Tagesstätte.
               </p>
               <Link
-                href="/about"
+                href="/contact"
                 className="btn"
                 data-aos="fade-up"
                 data-aos-delay="600"

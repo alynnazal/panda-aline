@@ -20,104 +20,109 @@ export default function TeamDetails() {
             <div className="col-lg-7">
               <div className="team__details-content">
                 <h2 className="name">
-                  Schülerbeförderung für Kinder mit Behinderung.{" "}
+                  Seniorenbeförderung für Menschen mit Behinderung{" "}
                 </h2>
-                <span>Sicher. Speziell. Zuverlässig.</span>
+                <span>Sicher, respektvoll & fürsorglich mit Fahrdienst Panda.</span>
                 <p>
-                  Der tägliche Schulweg kann für Kinder mit körperlichen oder
-                  geistigen Beeinträchtigungen eine besondere Herausforderung
-                  sein. Deshalb bieten wir einen spezialisierten Fahrdienst
-                  ausschließlich für Kinder mit Behinderung an sicher,
-                  zuverlässig und mit größter Fürsorge. Unsere Aufgabe ist es,
-                  jedes Kind sicher zur Schule und wieder nach Hause zu bringen.
-                  Mit viel Geduld, Einfühlungsvermögen und geschultem Personal
-                  unterstützen wir Familien in ganz Berlin und Umgebung ob
-                  Berlin-Mitte, Kreuzberg, Neukölln, Spandau, Pankow,
-                  Oranienburg oder Strausberg.
+                  Im Alter kann Mobilität zur Herausforderung werden – besonders für Seniorinnen und
+Senioren mit körperlichen Einschränkungen oder Behinderungen. Dennoch bleiben
+Arztbesuche, Therapietermine, Einkäufe und soziale Kontakte entscheidend für
+Lebensfreude, Selbstständigkeit und Teilhabe.
+
                 </p>
                 <div className="experience-wrap">
                   <h4 className="title">
-                    Warum unsere Schülerbeförderung speziell für Kinder mit
-                    Behinderung die richtige Wahl ist
+                    Warum unsere Schülerbeförderung speziell für älteren
+Menschen mit Behinderung ausgerichtet ist.
                   </h4>
                   <p>
-                    Wir verstehen die individuellen Bedürfnisse von Kindern mit
-                    körperlichen, geistigen oder mehrfachen Behinderungen. Daher
-                    sind unsere Fahrzeuge, Abläufe und unser Personal
-                    vollständig darauf abgestimmt, einen sicheren, komfortablen
-                    und respektvollen Transport zu gewährleisten. Unsere
-                    barrierefreien, angepassten Transportlösungen machen den
-                    Schulweg für dein Kind so einfach und angenehm wie möglich.
+                    Fahrdienst Panda bietet dir in Berlin und Brandenburg einen zuverlässigen, barrierefreien
+und warmherzigen Seniorenfahrdienst, der speziell auf die Bedürfnisse von älteren
+Menschen mit Behinderung ausgerichtet ist.
+Wir holen dich pünktlich zu Hause ab, begleiten dich sicher zu deinem Ziel und bringen dich
+anschließend wieder sorgsam zurück.
+Ob es zur Physiotherapie geht, zur Tagespflege, ins Krankenhaus, zu Freunden, zu
+Familienfeiern oder zu wichtigen Alltagswegen – wir stehen dir freundlich, geduldig und
+unterstützend zur Seite.
                   </p>
                 </div>
                 <div className="contact__info-wrap team__details-info">
                   <h6 className="title">
-                    Unsere Vorteile für den Transport von Kindern mit
-                    Behinderung
+                    Deine Vorteile mit unserem
+Seniorenfahrdienst für Menschen mit
+Behinderung
+
+
+
                   </h6>
                   <p>
                     <p>
-                      ✔{" "}
                       <strong>
-                        Speziell ausgestattete, barrierefreie Fahrzeuge
+                        Ein vertrauensvoller und sicherer Transport ist ein wesentlicher Teil eines selbstbestimmten
+Lebens im Alter.
+Darum bietet Fahrdienst Panda dir einen Service, der komfortabel, verständnisvoll und
+barrierefrei ist.<br /> Die wichtigsten Vorteile unserer Seniorenbeförderung im Überblick:
                       </strong>
-                      <br />
-                      Unsere Fahrzeuge verfügen über moderne Rollstuhlplätze,
-                      Rampen, Sicherungssysteme und kindgerechte
-                      Sicherheitsausstattung – perfekt abgestimmt auf besondere
-                      Bedürfnisse.
+                      
                     </p>
 
                     <p>
-                      ✔ <strong>Professionell geschultes Personal</strong>
-                      <br />
-                      Unsere Fahrerinnen und Fahrer sind ausschließlich im
-                      Transport von Menschen und Kindern mit Behinderungen tätig
-                      und speziell geschult im Umgang mit verschiedenen
-                      Krankheitsbildern und Mobilitätseinschränkungen.
+                      ✔ Rollstuhlgerechte und komfortable Fahrzeuge
                     </p>
 
                     <p>
-                      ✔ <strong>Sanfter &amp; geduldiger Umgang</strong>
-                      <br />
-                      Jedes Kind wird mit Ruhe, Respekt und Empathie begleitet –
-                      ideal für Kinder, die auf klare Abläufe, Sicherheit und
-                      Verlässlichkeit angewiesen sind.
+                      ✔ Geduldige, erfahrene und geschulte Fahrer:innen
+                      
                     </p>
 
                     <p>
-                      ✔ <strong>Feste Routen und pünktliche Abholung</strong>
-                      <br />
-                      Wir garantieren strukturierte Fahrpläne, feste Abholzeiten
-                      und eine sichere Rückfahrt – verlässlich jeden Tag.
+                      ✔ Individuelle Unterstützung beim Ein- und Aussteigen
+                      
                     </p>
 
                     <p>
                       ✔{" "}
-                      <strong>
-                        Individuelle Planung für jede Art von Behinderung
-                      </strong>
-                      <br />
-                      Ob Rollstuhl, Begleitperson, medizinische Ausstattung oder
-                      besondere Betreuung – wir planen jede Fahrt
-                      maßgeschneidert.
+                      
+                         Flexible Fahrtzeiten – abgestimmt auf deinen Alltag
+                      
+                      
                     </p>
 
                     <p>
-                      ✔ <strong>Unterstützung bei Kostenübernahme</strong>
-                      <br />
-                      Wir helfen gern bei Fragen zur Finanzierung über
-                      Pflegekassen, Ämter oder andere Kostenträger.
+                      ✔ Transparente & faire Preise ohne Überraschungen
+                     
                     </p>
 
                     <p>
                       ✔{" "}
+                     
+                       Einfache Buchung, persönliche Betreuung & klare Kommunikation
+                      
+                  
+                    </p>
+                     <p>
+                      ✔{" "}
+                      
+                       Auf Wunsch feste Fahrer:innen für regelmäßige Fahrten
+                     
+                    </p>
+                    <p>
                       <strong>
-                        Direkte &amp; unkomplizierte Kommunikation
+                        Mit Fahrdienst Panda entscheidest du dich für einen Transportservice, der sicher,
+menschlich und liebevoll ist – und der auf die besonderen Bedürfnisse von Seniorinnen
+und Senioren mit Behinderung eingeht. <br />
+
                       </strong>
-                      <br />
-                      Wir halten Eltern und Einrichtungen ständig informiert –
-                      transparent, freundlich und zuverlässig.
+                      
+                        Selbstbestimmt im Alter – mit einem
+Fahrdienst, der versteht.<br /> Senioren mit Behinderung benötigen oft mehr Zeit, Ruhe und Unterstützung.
+Genau darauf sind wir spezialisiert.
+Wir möchten dir helfen, deine täglichen Wege stressfrei, sicher und angenehm zu
+gestalten – und gleichzeitig deine Selbstständigkeit und Teilhabe zu fördern.
+Ob kurze Fahrten oder regelmäßige Pendelstrecken: Wir sorgen dafür, dass du dich bei
+jeder Fahrt gut aufgehoben fühlst.
+Gemeinsam tragen wir dazu bei, Barrieren abzubauen und älteren Menschen ein aktives
+Leben zu ermöglichen – egal, welche körperlichen Einschränkungen bestehen.
                     </p>
                   </p>
                   <ul className="list-wrap">

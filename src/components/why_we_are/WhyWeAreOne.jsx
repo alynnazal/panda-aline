@@ -7,6 +7,7 @@ const whyShape3 = "/images/why_shape03.svg";
 const whyShape4 = "/images/why_shape04.svg";
 const petIcon = "/icon/pet_icon02.svg";
 const checkIcon = "/icon/check_icon.svg";
+const support = "/images/support.jpg";
 
 export const WhyWeAreOne = () => {
   return (
@@ -16,7 +17,7 @@ export const WhyWeAreOne = () => {
           {/* images */}
           <div className="col-lg-6 col-md-8 col-sm-10">
             <div className="why__we-are-img">
-              <img src={whyWeAreImg} alt="" />
+              <img src={support} alt="" />
             </div>
           </div>
 

@@ -13,6 +13,7 @@ const author4 = "/images/author_04.png";
 const aboutShape1 = "/images/about_shape01.png";
 const aboutShape2 = "/images/about_shape02.png";
 const aboutShape3 = "/images/about_shape03.png";
+const Behindert = "/images/Behindert.jpg";
 
 export const AboutOne = () => {
   return (
@@ -21,7 +22,7 @@ export const AboutOne = () => {
         <div className="row align-items-center justify-content-center">
           <div className="col-xl-5 col-lg-6 col-md-8">
             <div className="about__img">
-              <img src={aboutImg} alt="" />
+              <img src={Behindert} alt="" />
               <div className="video__box">
                 <div className="video__box-shape">
                   <img src={videoShape} alt="" className="injectable" />
