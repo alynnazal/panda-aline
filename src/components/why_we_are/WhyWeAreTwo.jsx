@@ -17,7 +17,7 @@ export const WhyWeAreTwo = () => {
           <div className="col-lg-6">
             <div className="section__title text-center mb-40">
               <span className="sub-title">
-                Why we are the best
+                WARUM WIR DIE BESTE WAHL SIND
                 <strong className="shake">
                   <img src={petIcon} alt="" className="injectable" />
                 </strong>
