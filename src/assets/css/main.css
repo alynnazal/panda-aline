@@ -9090,6 +9090,7 @@ textarea {
 ===============================*/
 .team__area {
   padding: 0 0;
+  padding-bottom: 60px;
   position: relative;
   z-index: 1;
 }
@@ -9217,10 +9218,8 @@ textarea {
   font-family: var(--tg-heading-font-family);
 }
 .team__item:hover .mask-img-wrap::before {
-  opacity: 0.9;
 }
 .team__item:hover .team__social .list-wrap li {
-  opacity: 1;
   visibility: visible;
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
