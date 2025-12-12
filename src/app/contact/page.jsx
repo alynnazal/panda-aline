@@ -7,8 +7,8 @@ const rightArrow = "/icon/right_arrow.svg";
 export default function Contact() {
   return (
     <Layout
-      breadcrumbTitle="Contact Page"
-      breadcrumbSubtitle={"Contact"}
+      // breadcrumbTitle="Contact Page"
+      // breadcrumbSubtitle={"Contact"}
       header={1}
       footer={1}
     >
