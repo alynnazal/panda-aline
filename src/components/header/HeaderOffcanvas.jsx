@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 
 const LOGO = "/logo/logo.png";
+const logopanda = "/logo/logopanda.svg";
 
 export const HeaderOffcanvas = ({ active, toggleCanvas }) => {
   return (
@@ -19,7 +20,7 @@ export const HeaderOffcanvas = ({ active, toggleCanvas }) => {
         </div>
         <div className="offCanvas__logo mb-30">
           <Link href="/">
-            <img src={LOGO} alt="Logo" />
+            <img src={logopanda} alt="Logo" />
           </Link>
         </div>
         <div className="offCanvas__side-info mb-30">

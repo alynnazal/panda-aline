@@ -8,6 +8,7 @@ import { HeaderMobileMenu } from "./HeaderMobileMenu";
 import { HeaderNav } from "./HeaderNav";
 
 const wLogo = "/logo/w_logo.png";
+const logopanda = "/logo/logopanda.svg";
 
 export const HeaderThree = () => {
   const { showSearch, toggleSearch } = useSearch();

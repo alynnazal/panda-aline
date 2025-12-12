@@ -26,11 +26,11 @@ export const BannerOne = () => {
         <div className="row align-items-center justify-content-center">
           <div className="col-xl-5 col-lg-6">
             <div className="banner__content">
-              <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+              <h2 className="title" style={{ color: "#fff" }} data-aos="fade-up" data-aos-delay="200">
                 Behindertenfahrdienst & Schülerbeförderung in Berlin &
                 Brandenburg
               </h2>
-              <p data-aos="fade-up" data-aos-delay="400">
+              <p style={{ color: "#fff" }} data-aos="fade-up" data-aos-delay="400">
                 Fahrdienst Panda bietet sicheren Behindertentransport und
                 Schülerbeförderung in Berlin und Brandenburg.Unsere speziell
                 geschulten Fahrerinnen bringen Kinder, Seniorinnen und Menschen
