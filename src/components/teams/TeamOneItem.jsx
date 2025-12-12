@@ -4,6 +4,7 @@ import Link from "next/link";
 const shapeOne = "/team/team_img_shape01.svg";
 const shapeTwo = "/team/team_img_shape02.svg";
 
+
 export const TeamOneItem = ({ id, href, src, name, designation }) => {
   // Use href if provided, otherwise construct from id
   const linkHref = href || (id ? `/team/${id}` : "#");
