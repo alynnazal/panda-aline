@@ -201,7 +201,7 @@ p {
   font-size: var(--tg-body-font-size);
   line-height: var(--tg-body-line-height);
   font-weight: var(--tg-fw-regular);
-  color: "#4a4b4f";
+  color: #4a4b4f;
   margin-bottom: 15px;
 }
 
