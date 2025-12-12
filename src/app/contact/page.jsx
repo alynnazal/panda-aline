@@ -1,10 +1,106 @@
+"use client";
+
 import { Layout } from "@/layouts/Layout";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const rightArrow = "/icon/right_arrow.svg";
 
 export default function Contact() {
+  const [contactFormLoading, setContactFormLoading] = useState(false);
+  const [callbackFormLoading, setCallbackFormLoading] = useState(false);
+
+  const handleContactSubmit = async (e) => {
+    e.preventDefault();
+    setContactFormLoading(true);
+    
+    const form = e.target;
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+    
+    const responseElement = form.nextElementSibling;
+    if (responseElement) {
+      responseElement.textContent = "";
+    }
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (result.ok) {
+        if (responseElement) {
+          responseElement.textContent = "Nachricht erfolgreich gesendet!";
+          responseElement.style.color = "green";
+        }
+        form.reset();
+      } else {
+        if (responseElement) {
+          responseElement.textContent = result.error || "Fehler beim Senden der Nachricht";
+          responseElement.style.color = "red";
+        }
+      }
+    } catch (error) {
+      if (responseElement) {
+        responseElement.textContent = "Fehler beim Senden der Nachricht";
+        responseElement.style.color = "red";
+      }
+    } finally {
+      setContactFormLoading(false);
+    }
+  };
+
+  const handleCallbackSubmit = async (e) => {
+    e.preventDefault();
+    setCallbackFormLoading(true);
+    
+    const form = e.target;
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+    
+    const responseElement = form.nextElementSibling;
+    if (responseElement) {
+      responseElement.textContent = "";
+    }
+
+    try {
+      const response = await fetch("/api/callback", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (result.ok) {
+        if (responseElement) {
+          responseElement.textContent = "Rückruf-Anfrage erfolgreich gesendet!";
+          responseElement.style.color = "green";
+        }
+        form.reset();
+      } else {
+        if (responseElement) {
+          responseElement.textContent = result.error || "Fehler beim Senden der Anfrage";
+          responseElement.style.color = "red";
+        }
+      }
+    } catch (error) {
+      if (responseElement) {
+        responseElement.textContent = "Fehler beim Senden der Anfrage";
+        responseElement.style.color = "red";
+      }
+    } finally {
+      setCallbackFormLoading(false);
+    }
+  };
   return (
     <Layout
       breadcrumbTitle="Contact Page"
@@ -21,8 +117,7 @@ export default function Contact() {
             <div className="col-lg-10 col-xl-9">
               <div className="contact__form-wrap">
                 <form
-                  action="assets/mail.php"
-                  method="POST"
+                  onSubmit={handleContactSubmit}
                   id="contact-form"
                   className="contact__form"
                 >
@@ -208,8 +303,8 @@ export default function Contact() {
                       </div>
                     </div>
                   </div>
-                  <button type="submit" className="btn">
-                    Nachricht senden
+                  <button type="submit" className="btn" disabled={contactFormLoading}>
+                    {contactFormLoading ? "Wird gesendet..." : "Nachricht senden"}
                     <img src={rightArrow} alt="" className="injectable" />
                   </button>
                 </form>
@@ -223,8 +318,7 @@ export default function Contact() {
             <div className="col-lg-10 col-xl-9">
               <div className="contact__form-wrap">
                 <form
-                  action="assets/mail.php"
-                  method="POST"
+                  onSubmit={handleCallbackSubmit}
                   id="callback-form"
                   className="contact__form"
                 >
@@ -253,8 +347,8 @@ export default function Contact() {
                       </div>
                     </div>
                   </div>
-                  <button type="submit" className="btn">
-                    Rückruf anfordern
+                  <button type="submit" className="btn" disabled={callbackFormLoading}>
+                    {callbackFormLoading ? "Wird gesendet..." : "Rückruf anfordern"}
                     <img src={rightArrow} alt="" className="injectable" />
                   </button>
                 </form>
