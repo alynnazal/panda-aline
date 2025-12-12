@@ -15,7 +15,7 @@ export const ServicewithImage = () => {
           </h2>
 
           <img
-            src="/images/berlin.jpeg"
+            src="/images/berlin.png"
             alt="Service with Image"
             className="service-image"
           />
