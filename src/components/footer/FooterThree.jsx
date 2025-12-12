@@ -1,169 +1,69 @@
 import React from "react";
 import Link from "next/link";
 
-const rightArrow = "/icon/right_arrow04.svg";
-const wLogo = "/logo/w_logo.png";
-const footerShape1 = "/images/footer_shape01.png";
-const footerShape2 = "/images/footer_shape02.png";
+const wLogo = "/logo/whitelogo.jpg";
 
-export const FooterThree = ({ hideNewsLetter }) => {
+export const FooterThree = () => {
   return (
     <footer>
       <div className="footer__area">
-        {hideNewsLetter ? null : (
-          <div className="footer__newsletter-three">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-lg-5">
-                  <div className="footer__newsletter-content">
-                    <h2 className="title">Sign Up For Newsletter!</h2>
+        <div className="footer__top fix">
+          <div className="container">
+            <div className="footerNew">
+              <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">
+                <div className="footer__widget">
+                  <h4 className="footer__widget-title" style={{ textAlign: "center" }}>
+                    Kontakt
+                  </h4>
+                  <div className="footer__link" style={{ display: "flex", justifyContent: "center" }}>
+                    <ul className="list-wrap" style={{ textAlign: "center", padding: 0 }}>
+                      <li>
+                        <a
+                          href="mailto:kontakt@fahrdienst-panda.de"
+                          style={{ whiteSpace: "nowrap", display: "inline-block", width: "100%" }}
+                        >
+                          kontakt@fahrdienst-panda.de
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:+4917663263948" style={{ display: "inline-block", width: "100%" }}>
+                          +49 176 63263948
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-                <div className="col-lg-7">
-                  <form action="#" className="footer__newsletter-form-two">
-                    <input type="email" placeholder="Type Your E-mail" />
-                    <button type="submit">
-                      Subscribe
-                      <img src={rightArrow} alt="" className="injectable" />
-                    </button>
-                  </form>
-                </div>
               </div>
-            </div>
-          </div>
-        )}
-
-        <div className="footer__top footer__top-three fix">
-          <div className="container">
-            <div className="row">
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div className="footer__widget">
-                  <div className="footer__logo">
+                  <div className="footer__logo" style={{ marginTop: "50px" }}>
                     <Link href="/">
-                      <img src={wLogo} alt="Logo" />
+                      <img src={wLogo} alt="logo" />
                     </Link>
                   </div>
-                  <div className="footer__content footer__content-two">
-                    <p>
-                      Duis aute irure dolor in repreerit in voluptate velitesse
-                      We understand that your furry friend tred member
-                    </p>
-                  </div>
                   <div className="footer__social">
-                    <h6 className="title">Follow Us On:</h6>
                     <ul className="list-wrap">
-                      <li>
-                        <a
-                          href="https://www.facebook.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://twitter.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.whatsapp.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i className="fab fa-whatsapp"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.instagram.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.youtube.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i className="fab fa-youtube"></i>
-                        </a>
-                      </li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
                     </ul>
                   </div>
                 </div>
               </div>
+
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div className="footer__widget">
-                  <h4 className="footer__widget-title">Quick Links</h4>
-                  <div className="footer__link">
-                    <ul className="list-wrap">
-                      <li>
-                        <Link href="/animal">Animal Rescue</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Humane Education</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Caregivers</Link>
-                      </li>
-                      <li>
-                        <Link href="/blog">New & Blog</Link>
-                      </li>
-                      <li>
-                        <Link href="/gallery">Gallery</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div className="footer__widget">
-                  <h4 className="footer__widget-title">Support</h4>
-                  <div className="footer__link">
-                    <ul className="list-wrap">
-                      <li>
-                        <Link href="/about">About us</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Contact us</Link>
-                      </li>
-                      <li>
-                        <Link href="/reservation">Book Appointment</Link>
-                      </li>
-                      <li>
-                        <Link href="/faq">FAQ</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Locations</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div className="footer__widget">
-                  <h4 className="footer__widget-title">Contact</h4>
-                  <div className="footer__contact">
-                    <ul className="list-wrap">
-                      <li>
-                        555 A, East Manster Street, Ready Halley Neon, Uk 4512
-                      </li>
-                      <li>
-                        <a href="tel:0123456789">+00 123 45678 44</a>
-                      </li>
-                      <li>
-                        <a href="mailto:Supportinfo@gmail.com">
-                          Supportinfo@gmail.com
-                        </a>
+                  <h4 className="footer__widget-title" style={{ textAlign: "center" }}>
+                    Standort
+                  </h4>
+                  <div className="footer__link" style={{ display: "flex", justifyContent: "center" }}>
+                    <ul className="list-wrap" style={{ textAlign: "center", padding: 0 }}>
+                      <li style={{ display: "inline-block", width: "100%" }}>
+                        Neunburger Straße 22B
+                        <br />
+                        10969 Berlin
                       </li>
                     </ul>
                   </div>
@@ -171,46 +71,13 @@ export const FooterThree = ({ hideNewsLetter }) => {
               </div>
             </div>
           </div>
-          <div className="footer__shape-wrap">
-            <img
-              src={footerShape1}
-              alt="img"
-              data-aos="fade-up-right"
-              data-aos-delay="400"
-            />
-            <img
-              src={footerShape2}
-              alt="img"
-              data-aos="fade-up-left"
-              data-aos-delay="400"
-            />
-          </div>
         </div>
-        <div className="footer__bottom footer__bottom-two">
+
+        <div className="footer__bottom">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-lg-5">
-                <div className="copyright-text copyright-text-three">
-                  <p>Copyright © 2024. All Rights Reserved.</p>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="footer__bottom-menu footer__bottom-menu-two">
-                  <ul className="list-wrap">
-                    <li>
-                      <Link href="/contact">Support</Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">Terms & Conditions</Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">Privacy Policy</Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">Career</Link>
-                    </li>
-                  </ul>
-                </div>
+              <div className="copyright-text text-center">
+                <p style={{ color: "#fff" }}>Copyright © 2025. All Rights Reserved.</p>
               </div>
             </div>
           </div>

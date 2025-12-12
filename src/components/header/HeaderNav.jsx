@@ -13,12 +13,13 @@ export const HeaderNav = () => {
 
   return (
     <ul className="navigation">
-      <li
+
+      {/* <li
         className={`menu-item-has-children ${
           isActiveMenu(["/", "/home2", "/home3", "/home4"]) ? "active" : ""
         }`}
       >
-        <a href="#">Home</a>
+        <a className="bad-boy" href="#">Home</a>
         <ul className="sub-menu">
           <li className={pathname === "/" ? "active" : ""}>
             <Link href="/">Pet Care & Veterinary</Link>
@@ -33,11 +34,14 @@ export const HeaderNav = () => {
             <Link href="/home4">pet Woocommerce</Link>
           </li>
         </ul>
+      </li> */}
+      <li className={pathname === "/" ? "active" : ""}>
+        <Link href="/">Home</Link>
       </li>
       <li className={pathname === "/about" ? "active" : ""}>
         <Link href="/about">About</Link>
       </li>
-      <li
+      {/* <li
         className={`menu-item-has-children ${
           isActiveMenu(["/product", "/product/p-123"]) ? "active" : ""
         }`}
@@ -51,8 +55,8 @@ export const HeaderNav = () => {
             <Link href="/product/p-123">Shop Details</Link>
           </li>
         </ul>
-      </li>
-      <li
+      </li> */}
+      {/* <li
         className={`menu-item-has-children ${
           isActiveMenu([
             "/animal",
@@ -107,7 +111,7 @@ export const HeaderNav = () => {
             <Link href="/error">404 Error Page</Link>
           </li>
         </ul>
-      </li>
+      </li> */}
       <li className={pathname === "/contact" ? "active" : ""}>
         <Link href="/contact">contacts</Link>
       </li>

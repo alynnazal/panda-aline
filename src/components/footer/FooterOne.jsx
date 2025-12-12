@@ -1,11 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-const wLogo = "/logo/whitelogo.jpg";
-const newsletterShape = "/images/footer_newsletter_shape.svg";
-const footerShape01 = "/images/footer_shape01.png";
-const footerShape02 = "/images/footer_shape02.png";
-
 export const FooterOne = () => {
   return (
     <>
@@ -16,18 +11,22 @@ export const FooterOne = () => {
               <div className="footerNew">
                 <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">
                   <div className="footer__widget">
-                    <h4 className="footer__widget-title">Kontakt</h4>
-                    <div className="footer__link">
-                      <ul className="list-wrap">
-                        <li>
-                          <a href="tel:+4917663263948">+49 176 63263948</a>
-                        </li>
+                    <h4 className="footer__widget-title" style={{ textAlign: "center" }}>
+                      Kontakt
+                    </h4>
+                    <div className="footer__link" style={{ display: "flex", justifyContent: "center" }}>
+                      <ul className="list-wrap" style={{ textAlign: "center", padding: 0 }}>
                         <li>
                           <a
                             href="mailto:kontakt@fahrdienst-panda.de"
-                            style={{ whiteSpace: "nowrap" }}
+                            style={{ color: "#fff",whiteSpace: "nowrap", display: "inline-block", width: "100%" }}
                           >
                             kontakt@fahrdienst-panda.de
+                          </a>
+                        </li>
+                        <li>
+                          <a href="tel:+4917663263948" style={{ color: "#fff", display: "inline-block", width: "100%" }}>
+                            +49 176 63263948
                           </a>
                         </li>
                       </ul>
@@ -36,11 +35,6 @@ export const FooterOne = () => {
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6">
                   <div className="footer__widget">
-                    <div className="footer__logo" style={{ marginTop: "50px" }}>
-                      <Link href="/">
-                        <img src={wLogo} alt="logo" />
-                      </Link>
-                    </div>
                     <div className="footer__social">
                       <ul className="list-wrap">
                         <li></li>
@@ -55,10 +49,12 @@ export const FooterOne = () => {
 
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                   <div className="footer__widget">
-                    <h4 className="footer__widget-title">Standort</h4>
-                    <div className="footer__link">
-                      <ul className="list-wrap">
-                        <li>
+                    <h4 className="footer__widget-title" style={{ textAlign: "center" }}>
+                      Standort
+                    </h4>
+                    <div className="footer__link" style={{ display: "flex", justifyContent: "center" }}>
+                      <ul className="list-wrap" style={{ textAlign: "center", padding: 0 }}>
+                        <li style={{ color: "#fff", display: "inline-block", width: "100%" }}>
                           Neunburger Straße 22B
                           <br />
                           10969 Berlin
@@ -75,7 +71,7 @@ export const FooterOne = () => {
             <div className="container">
               <div className="row align-items-center">
                 <div className="copyright-text text-center">
-                  <p>Copyright © 2025. All Rights Reserved.</p>
+                  <p style={{ color: "#fff" }}>Copyright © 2025. All Rights Reserved.</p>
                 </div>
               </div>
             </div>

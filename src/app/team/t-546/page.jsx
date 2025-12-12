@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const teamDetailsImg = "/team/team_details.jpg";
+const seniorImg = "/images/Senioren-befoerderung.jpg";
 const rightArrowIcon = "/icon/right_arrow.svg";
 
 export default function TeamDetails() {
@@ -13,7 +14,7 @@ export default function TeamDetails() {
           <div className="row justify-content-center">
             <div className="col-lg-5 col-md-8">
               <div className="team__details-img">
-                <img src={teamDetailsImg} alt="team member" />
+                <img src={seniorImg} alt="team member" />
               </div>
             </div>
             <div className="col-lg-7">

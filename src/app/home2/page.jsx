@@ -19,10 +19,14 @@ export default function HomeTwo() {
 
       {/* brand */}
       <BrandTwo />
+      {/* team */}
+      <TeamTwo />
+
 
       {/* about */}
       <AboutTwo />
 
+      <MarqueeOne />
       {/* animal shop */}
       <AnimalShopOne />
 
@@ -35,8 +39,6 @@ export default function HomeTwo() {
       {/* counter */}
       <CounterTwo />
 
-      {/* team */}
-      <TeamTwo />
 
       {/* testimonial */}
       <TestimonialTwo />

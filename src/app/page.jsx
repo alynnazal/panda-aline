@@ -17,6 +17,12 @@ export default function Home() {
     <Layout header={1} footer={1}>
       {/* banner one */}
       <BannerOne />
+      
+      {/* team */}
+      <TeamOne />
+
+      {/* marquee one */}
+      <MarqueeOne />
 
       {/* about one */}
       <AboutOne />
@@ -24,21 +30,22 @@ export default function Home() {
       {/* marquee one */}
       <MarqueeOne />
 
-      {/* service one */}
-      <ServiceOne />
-
       {/* why we are */}
       <WhyWeAreOne />
+
+
+
+      {/* service one */}
+      {/* <ServiceOne /> */}
+      
 
       {/* counter */}
 
       {/* brand */}
 
-      {/* team */}
-      <TeamOne />
 
       {/* testimonial */}
-      <TestimonialOne />
+      {/* <TestimonialOne /> */}
 
       {/* registration */}
 

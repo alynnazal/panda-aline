@@ -45,7 +45,7 @@ export const AboutOne = () => {
             <div className="about__content">
               <div className="section__title mb-20">
                 <span className="sub-title">
-                  Mehr Uber Uns
+                  Mehr Über Uns
                   <strong className="shake">
                     <img src={petIcon} alt="" className="injectable" />
                   </strong>
@@ -75,12 +75,10 @@ export const AboutOne = () => {
                 </p>
               </div>
               <p>
-                Alle Mitarbeiter/-innen zeichnen sich durch hohe
+                Alle Mitarbeiter zeichnen sich durch hohe
                 Zuverlässigkeit, Freundlichkeit und Hilfsbereitschaft aus. Gern
                 beraten wir Sie telefonisch und erstellen Ihnen ein kostenloses
-                und unverbindliches Angebot zur Vorlage beim Kostenträger. Wenn
-                Sie Interesse haben, uns als Fahrer zu unterstützen, melden Sie
-                sich gerne!
+                und unverbindliches Angebot zur Vorlage beim Kostenträger.
               </p>
             </div>
           </div>

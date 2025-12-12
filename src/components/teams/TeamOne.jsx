@@ -24,7 +24,7 @@ export const TeamOne = () => {
       name: "Behindertenbeförderung",
       href: "/team/t-234",
       designation:
-        "Mit viel Geduld und Verständnis bringen wir Menschen mit körperlicher oder geistiger Einschränkung sicher und bequem ans Zielob zur Schule, Arbeit, Werkstatt, Arzt, Fördereinrichtung oder Tagesstätte.",
+        "Mit viel Geduld und Verständnis bringen wir Menschen mit körperlicher oder geistiger Einschränkung sicher und bequem ans Ziel, ob zur Schule, Arbeit, Werkstatt, Arzt, Fördereinrichtung oder Tagesstätte.",
     },
     {
       src: teamImg03,
@@ -48,7 +48,10 @@ export const TeamOne = () => {
         {/* top */}
         <div className="row justify-content-center">
           <div className="col-lg-6">
-            <div className="section__title text-center mb-40">
+            <div
+              className="section__title text-center mb-40"
+              style={{ marginTop: "60px" }}
+            >
               <span className="sub-title">Fahrdienst Panda Berlin</span>
               <h2 className="title">Leistungen unseres Fahrdienstes</h2>
             </div>

@@ -52,7 +52,7 @@ export const WhyWeAreOne = () => {
                         <h4 className="title">Mehr Erfahrung</h4>
                       </div>
                       <p>
-                        Unsere geschulten Fahrer:innen kennen die speziellen
+                        Unsere geschulten Fahrer kennen die speziellen
                         Anforderungen von Menschen mit
                         Mobilitätseinschränkungen.
                       </p>

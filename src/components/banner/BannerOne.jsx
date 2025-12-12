@@ -2,7 +2,9 @@
 
 import React from "react";
 import Link from "next/link";
+import ImgBanner from "/public/images/about_img.png";
 
+const ImgBanner2 = "/images/bannerbehindertimg1.jpg";
 const bannerBg = "/banner/banner_bg.jpg";
 const titleImg01 = "/banner/banner_title_img01.png";
 const titleImg02 = "/banner/banner_title_img02.png";
@@ -18,7 +20,7 @@ export const BannerOne = () => {
   return (
     <section
       className="banner__area banner__bg"
-      style={{ backgroundImage: `url(${bannerBg})` }}
+      style={{ backgroundImage: `url(${ImgBanner2})` }}
     >
       <div className="container">
         <div className="row align-items-center justify-content-center">
@@ -42,7 +44,7 @@ export const BannerOne = () => {
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
-                Read More
+                Jetzt Fahrt Anfragen
                 <img src={rightArrow} alt="" className="injectable" />
               </Link>
             </div>
@@ -50,6 +52,7 @@ export const BannerOne = () => {
           <div className="col-xl-7 col-lg-6 col-md-9">
             <div className="banner__img text-end">
               <img
+                style={{ opacity: 0}}
                 src={bannerImg01}
                 alt="img"
                 data-aos="fade-left"
