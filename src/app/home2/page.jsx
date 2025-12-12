@@ -5,6 +5,7 @@ import { BlogTwo } from "@/components/blogs/BlogTwo";
 import { BrandTwo } from "@/components/brands/brandTwo";
 import { CounterTwo } from "@/components/counter/CounterTwo";
 import { IntroducingOne } from "@/components/intro/IntroducingOne";
+import { MarqueeOne } from "@/components/marquee/MarqueeOne";
 import { TeamTwo } from "@/components/teams/TeamTwo";
 import { TestimonialTwo } from "@/components/testimonial/TestimonialTwo";
 import { WhyWeAreTwo } from "@/components/why_we_are/WhyWeAreTwo";
@@ -22,7 +23,6 @@ export default function HomeTwo() {
       {/* team */}
       <TeamTwo />
 
-
       {/* about */}
       <AboutTwo />
 
@@ -38,7 +38,6 @@ export default function HomeTwo() {
 
       {/* counter */}
       <CounterTwo />
-
 
       {/* testimonial */}
       <TestimonialTwo />
