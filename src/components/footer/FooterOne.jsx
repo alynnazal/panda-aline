@@ -138,7 +138,7 @@ export const FooterOne = () => {
           <div className="footer__bottom">
             <div className="container">
               <div className="row align-items-center">
-                <div className="col-lg-6">
+                <div className="">
                   <div className="copyright-text text-center">
                     <p style={{ color: "#fff" }}>
                       Copyright © 2025. All Rights Reserved.
