@@ -86,6 +86,51 @@ export const FooterOne = () => {
                     </div>
                   </div>
                 </div>
+
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">
+                  <div className="footer__widget">
+                    <h4
+                      className="footer__widget-title"
+                      style={{ textAlign: "center" }}
+                    >
+                      Rechtliches
+                    </h4>
+                    <div
+                      className="footer__link"
+                      style={{ display: "flex", justifyContent: "center" }}
+                    >
+                      <ul
+                        className="list-wrap"
+                        style={{ textAlign: "center", padding: 0 }}
+                      >
+                        <li>
+                          <Link
+                            href="/impressum"
+                            style={{
+                              color: "#fff",
+                              display: "inline-block",
+                              width: "100%",
+                            }}
+                          >
+                            Impressum
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/datenschutz"
+                            style={{
+                              color: "#fff",
+                              display: "inline-block",
+                              width: "100%",
+                            }}
+                          >
+                            Datenschutz
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -93,10 +138,30 @@ export const FooterOne = () => {
           <div className="footer__bottom">
             <div className="container">
               <div className="row align-items-center">
-                <div className="copyright-text text-center">
-                  <p style={{ color: "#fff" }}>
-                    Copyright © 2025. All Rights Reserved.
-                  </p>
+                <div className="col-lg-6">
+                  <div className="copyright-text text-center">
+                    <p style={{ color: "#fff" }}>
+                      Copyright © 2025. All Rights Reserved.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div
+                    className="footer__bottom-menu"
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      gap: "20px",
+                      flexWrap: "wrap",
+                    }}
+                  >
+                    <Link href="/impressum" style={{ color: "#fff" }}>
+                      Impressum
+                    </Link>
+                    <Link href="/datenschutz" style={{ color: "#fff" }}>
+                      Datenschutz
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
