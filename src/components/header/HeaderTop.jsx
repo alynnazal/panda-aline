@@ -16,7 +16,7 @@ export const HeaderTop = () => {
                 </a>
               </li>
               <li>
-                <i className="flaticon-placeholder"></i> +49 176 63263948
+                <i className="flaticon-phone"></i> +49 176 63263948
               </li>
             </ul>
           </div>

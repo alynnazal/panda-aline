@@ -145,12 +145,6 @@ export const HeaderNav = () => {
       <li className={pathname === "/service" ? "active" : ""}>
         <Link href="/service">Einsatzgebiet</Link>
       </li>
-      <li className={pathname === "/impressum" ? "active" : ""}>
-        <Link href="/impressum">Impressum</Link>
-      </li>
-      <li className={pathname === "/datenschutz" ? "active" : ""}>
-        <Link href="/datenschutz">Datenschutz</Link>
-      </li>
     </ul>
   );
 };
