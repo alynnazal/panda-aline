@@ -15,9 +15,9 @@ export default function TeamDetails() {
             <div className="col-lg-7">
               <div className="team__details-content">
                 <h2 className="name">
-                  Schülerbeförderung für Kinder mit Behinderung.{" "}
+                  Autismusbeförderung mit Fahrdienst Panda{" "}
                 </h2>
-                <span>Sicher. Speziell. Zuverlässig.</span>
+                <span>sicher, ruhig & einfühlsam unterwegs in Berlin & Brandenburg</span>
                 <p>
                   Der tägliche Schulweg kann für Kinder mit körperlichen oder
                   geistigen Beeinträchtigungen eine besondere Herausforderung

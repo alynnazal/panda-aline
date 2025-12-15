@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Datenschutz() {
   return (
-    <Layout breadcrumbTitle="Datenschutz" hideNewsLetter header={1} footer={1}>
+    <Layout hideNewsLetter header={1} footer={1}>
       <section className="team__area" style={{ padding: "80px 0" }}>
         <div className="container">
           <div className="row justify-content-center">

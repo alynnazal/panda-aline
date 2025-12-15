@@ -51,7 +51,7 @@ export const AboutOne = () => {
                     <img src={petIcon} alt="" className="injectable" />
                   </strong>
                 </span>
-                <h2 className="title">
+                <h2 className="title" style={{ fontSize: "21px" }}>
                   Dein zuverlässiger Fahrdienst in Berlin & Brandenburg <br />
                 </h2>
               </div>

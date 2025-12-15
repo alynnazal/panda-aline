@@ -4,6 +4,7 @@ import React from "react";
 
 const teamDetailsImg = "/team/team_details.jpg";
 const rightArrowIcon = "/icon/right_arrow.svg";
+const fahrdienstpandaimg = "/images/fahrdienstpanda.jpg";
 
 export default function TeamDetails() {
   return (
@@ -119,7 +120,7 @@ export default function TeamDetails() {
             </div>{" "}
             <div className="col-lg-5 col-md-8">
               <div className="team__details-img">
-                <img src={teamDetailsImg} alt="team member" />
+                <img src={fahrdienstpandaimg} alt="team member" />
               </div>
             </div>
           </div>

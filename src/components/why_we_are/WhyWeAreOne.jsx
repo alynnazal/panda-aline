@@ -9,11 +9,19 @@ const petIcon = "/icon/pet_icon02.svg";
 const checkIcon = "/icon/check_icon.svg";
 const support = "/images/support.jpg";
 
+
 export const WhyWeAreOne = () => {
   return (
     <section className="why__we-are-area">
       <div className="container">
         <div className="row align-items-center justify-content-center">
+          {/* images */}
+          <div className="col-lg-6 col-md-8 col-sm-10">
+            <div className="why__we-are-img">
+              
+            </div>
+          </div>
+
           <div className="col-lg-6">
             <div className="why__we-are-content">
               <div className="section__title mb-10">
@@ -23,7 +31,7 @@ export const WhyWeAreOne = () => {
                     <img src={petIcon} alt="" className="injectable" />
                   </strong>
                 </span>
-                <h2 className="title">
+                <h2 className="title" style={{fontSize: "20px" }}>
                   Barrierefreier Fahrdienst <br />
                   Alles, was Sie wissen müssen
                 </h2>

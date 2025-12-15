@@ -4,6 +4,7 @@ import React from "react";
 
 const teamDetailsImg = "/team/team_details.jpg";
 const rightArrowIcon = "/icon/right_arrow.svg";
+const supportimg = "/images/support.jpg";
 
 export default function TeamDetails() {
   return (
@@ -14,7 +15,9 @@ export default function TeamDetails() {
             <div className="col-lg-7">
               <div className="team__details-content">
                 <h2 className="name">
-                  Schülerbeförderung für Kinder mit Behinderung.{" "}
+                  Behindertenbeförderung: Dein warmherziger
+und zuverlässiger Behindertenfahrdienst
+in Berlin & Brandenburg{" "}
                 </h2>
                 <span>Sicher. Speziell. Zuverlässig.</span>
                 <p>
@@ -119,7 +122,7 @@ export default function TeamDetails() {
             </div>
             <div className="col-lg-5 col-md-8">
               <div className="team__details-img">
-                <img src={teamDetailsImg} alt="team member" />
+                <img src={supportimg} alt="team member" />
               </div>
             </div>
           </div>
