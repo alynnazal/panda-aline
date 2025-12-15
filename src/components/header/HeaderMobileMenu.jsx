@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-const LOGO = "/logo/logo.png";
+const LOGO = "/logo/logopanda.svg";
 
 export const HeaderMobileMenu = () => {
   return (

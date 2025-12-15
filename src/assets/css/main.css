@@ -2650,7 +2650,7 @@ textarea {
 }
 @media (max-width: 767.98px) {
   .banner__content .title {
-    font-size: 45px;
+    font-size: 30px;
     margin-top: 48px;
   }
 }
@@ -13246,6 +13246,12 @@ blockquote p {
   margin-left: calc(-0.25 * var(--bs-gutter-x));
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+@media (max-width: 767.98px) {
+  .footerNew {
+    justify-content: center;
+  }
 }
 
 .service-image {
