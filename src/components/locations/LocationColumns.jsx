@@ -1,11 +1,11 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 
-export const LocationColumns = ({ 
+export const LocationColumns = ({
   data = null,
   title = null,
-  className = ""
+  className = "",
 }) => {
   // Default data structure matching the image
   const defaultData = {
@@ -31,8 +31,8 @@ export const LocationColumns = ({
           "Rosenthal",
           "Wedding",
           "Wilhelmsruh",
-          "Wittenau"
-        ]
+          "Wittenau",
+        ],
       },
       {
         heading: "Süd",
@@ -54,8 +54,8 @@ export const LocationColumns = ({
           "Rudow",
           "Schöneberg",
           "Tempelhof",
-          "Treptow"
-        ]
+          "Treptow",
+        ],
       },
       {
         heading: "West",
@@ -82,8 +82,8 @@ export const LocationColumns = ({
           "Wannsee",
           "Westend",
           "Wilmersdorf",
-          "Zehlendorf"
-        ]
+          "Zehlendorf",
+        ],
       },
       {
         heading: "Ost",
@@ -107,13 +107,18 @@ export const LocationColumns = ({
           "Rahnsdorf",
           "Rummelsburg",
           "Schmöckwitz",
-          "Weißensee"
-        ]
-      }
-    ]
+          "Weißensee",
+        ],
+      },
+    ],
   };
 
   const locationData = data || defaultData;
+  const [activeTab, setActiveTab] = useState(0);
+
+  const handleTabClick = (index) => {
+    setActiveTab(index);
+  };
 
   return (
     <div className={`location-columns ${className}`}>
@@ -123,9 +128,30 @@ export const LocationColumns = ({
             <h2>{title}</h2>
           </div>
         )}
-        <div className="row">
+
+        {/* Tab Navigation */}
+        <div className="location-columns__tabs">
+          <div className="location-columns__tabs-nav">
+            {locationData.columns.map((column, index) => (
+              <button
+                key={index}
+                className={`location-columns__tab-btn ${activeTab === index ? "active" : ""}`}
+                onClick={() => handleTabClick(index)}
+                type="button"
+              >
+                {column.heading}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Tab Content */}
+        <div className="location-columns__tabs-content">
           {locationData.columns.map((column, index) => (
-            <div key={index} className="col-lg-3 col-md-6 col-sm-6">
+            <div
+              key={index}
+              className={`location-columns__tab-panel ${activeTab === index ? "active" : ""}`}
+            >
               <div className="location-columns__item">
                 <h3 className="location-columns__heading">{column.heading}</h3>
                 <ul className="list-wrap location-columns__list">
@@ -143,4 +169,3 @@ export const LocationColumns = ({
     </div>
   );
 };
-
