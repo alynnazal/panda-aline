@@ -2696,28 +2696,28 @@ textarea {
 .banner__content--centered .title {
   color: #ffffff;
   margin: 0 auto;
-  font-size: 72px;
+  font-size: 56px;
   font-weight: 700;
   line-height: 1.2;
 }
 @media (max-width: 1500px) {
   .banner__content--centered .title {
-    font-size: 64px;
+    font-size: 50px;
   }
 }
 @media (max-width: 1199.98px) {
   .banner__content--centered .title {
-    font-size: 56px;
+    font-size: 44px;
   }
 }
 @media (max-width: 991.98px) {
   .banner__content--centered .title {
-    font-size: 48px;
+    font-size: 38px;
   }
 }
 @media (max-width: 767.98px) {
   .banner__content--centered .title {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 @media (max-width: 991.98px) {
@@ -13061,6 +13061,9 @@ blockquote p {
 .service-image {
   display: block;
   margin: 0 auto;
-  max-width: 60%;
+  width: 100%;
+  max-width: 95%;
   height: auto;
+  transform: scale(0.7);
+  transform-origin: center;
 }

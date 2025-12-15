@@ -10,7 +10,7 @@ export const ServicewithImage = () => {
           <h2>
             <b>
               Du möchtest wissen, in welchen Regionen wir unseren zuverlässigen
-              Fahrdienst anbieten?{" "}
+              Fahrdienst anbieten?
             </b>
           </h2>
 
