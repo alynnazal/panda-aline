@@ -8,7 +8,7 @@ const rightArrowIcon = "/icon/right_arrow.svg";
 
 export default function TeamDetails() {
   return (
-    <Layout breadcrumbTitle="Team Details" breadcrumbSubtitle={"Team Details"}>
+    <Layout>
       <section className="team__details-area">
         <div className="container">
           <div className="row justify-content-center">

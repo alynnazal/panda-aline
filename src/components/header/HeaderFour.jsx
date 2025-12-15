@@ -40,7 +40,7 @@ export const HeaderFour = () => {
                     <Form />
                   </div>
 
-                  {/* action */}
+                  {/* action removed*/}
                   <div className="tgmenu__action tgmenu__action-three d-none d-md-block">
                     <ul className="list-wrap">
                       <li className="header-login">
