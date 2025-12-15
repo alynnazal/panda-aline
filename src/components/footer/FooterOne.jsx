@@ -145,24 +145,6 @@ export const FooterOne = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div
-                    className="footer__bottom-menu"
-                    style={{
-                      display: "flex",
-                      justifyContent: "center",
-                      gap: "20px",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    <Link href="/impressum" style={{ color: "#fff" }}>
-                      Impressum
-                    </Link>
-                    <Link href="/datenschutz" style={{ color: "#fff" }}>
-                      Datenschutz
-                    </Link>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
