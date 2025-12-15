@@ -4,7 +4,7 @@ import React from "react";
 
 const teamDetailsImg = "/team/team_details.jpg";
 const rightArrowIcon = "/icon/right_arrow.svg";
-const supportimg = "/images/support.jpg";
+const behindert1Img = "/images/behindert1.webp";
 
 export default function TeamDetails() {
   return (
@@ -122,7 +122,7 @@ in Berlin & Brandenburg{" "}
             </div>
             <div className="col-lg-5 col-md-8">
               <div className="team__details-img">
-                <img src={supportimg} alt="team member" />
+                <img src={behindert1Img} alt="team member" />
               </div>
             </div>
           </div>
