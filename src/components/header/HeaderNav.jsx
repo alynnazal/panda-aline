@@ -40,6 +40,34 @@ export const HeaderNav = () => {
       <li className={pathname === "/about" ? "active" : ""}>
         <Link href="/about">About</Link>
       </li>
+      <li
+        className={`menu-item-has-children ${
+          isActiveMenu([
+            "/team/t-123",
+            "/team/t-234",
+            "/team/t-345",
+            "/team/t-546",
+          ])
+            ? "active"
+            : ""
+        }`}
+      >
+        <a href="#">Leistungen</a>
+        <ul className="sub-menu">
+          <li className={pathname === "/team/t-123" ? "active" : ""}>
+            <Link href="/team/t-123">Autismusbeförderung</Link>
+          </li>
+          <li className={pathname === "/team/t-234" ? "active" : ""}>
+            <Link href="/team/t-234">Behindertenbeförderung</Link>
+          </li>
+          <li className={pathname === "/team/t-345" ? "active" : ""}>
+            <Link href="/team/t-345">Schülerbeförderung</Link>
+          </li>
+          <li className={pathname === "/team/t-546" ? "active" : ""}>
+            <Link href="/team/t-546">Seniorenbeförderung</Link>
+          </li>
+        </ul>
+      </li>
       {/* <li
         className={`menu-item-has-children ${
           isActiveMenu(["/product", "/product/p-123"]) ? "active" : ""

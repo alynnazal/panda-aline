@@ -14,13 +14,6 @@ export const WhyWeAreOne = () => {
     <section className="why__we-are-area">
       <div className="container">
         <div className="row align-items-center justify-content-center">
-          {/* images */}
-          <div className="col-lg-6 col-md-8 col-sm-10">
-            <div className="why__we-are-img">
-              <img src={support} alt="" />
-            </div>
-          </div>
-
           <div className="col-lg-6">
             <div className="why__we-are-content">
               <div className="section__title mb-10">
