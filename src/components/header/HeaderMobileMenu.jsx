@@ -32,36 +32,7 @@ export const HeaderMobileMenu = () => {
           <div className="tgmobile__menu-outer">
             {/* <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--> */}
           </div>
-
-          <div className="social-links">
-            <ul className="list-wrap">
-              <li>
-                <a href="https://www.facebook.com/" target="_blank">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com" target="_blank">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.whatsapp.com/" target="_blank">
-                  <i className="fab fa-whatsapp"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/" target="_blank">
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/" target="_blank">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+          
         </nav>
       </div>
       <div className="tgmobile__menu-backdrop"></div>
