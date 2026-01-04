@@ -37,9 +37,11 @@ export const HeaderNav = () => {
       <li className={pathname === "/" ? "active" : ""}>
         <Link href="/">Home</Link>
       </li>
+      {/*
       <li className={pathname === "/about" ? "active" : ""}>
         <Link href="/about">About</Link>
       </li>
+      */}
       <li
         className={`menu-item-has-children ${
           isActiveMenu([
