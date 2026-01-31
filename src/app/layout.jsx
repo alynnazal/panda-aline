@@ -10,7 +10,6 @@ import "../assets/css/main.css";
 import { ProviderComponent } from "@/components/provider/Provider";
 import { Montserrat } from "next/font/google";
 
-// Font configuration
 const montserrat = Montserrat({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
@@ -19,7 +18,12 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "fahrdienst-panda.de",
+  title: {
+    default: "Fahrdienst Panda",
+    template: "%s | Fahrdienst Panda",
+  },
+  description:
+    "Fahrdienst Panda bietet sichere, zuverlässige und barrierefreie Personenbeförderung für Menschen mit Behinderung in Berlin und Brandenburg.",
 };
 
 export default function RootLayout({ children }) {
@@ -31,7 +35,7 @@ export default function RootLayout({ children }) {
   `;
 
   return (
-    <html lang="en" suppressHydrationWarning={true}>
+    <html lang="de" suppressHydrationWarning={true}>
       <head>
         <style dangerouslySetInnerHTML={{ __html: fontVariables }} />
       </head>
