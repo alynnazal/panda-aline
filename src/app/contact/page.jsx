@@ -117,9 +117,9 @@ export default function Contact() {
             <div className="col-lg-10 col-xl-9">
               <div className="contact__form-wrap">
                 <form
-                  onSubmit={handleContactSubmit}
                   id="contact-form"
                   className="contact__form"
+                  action="https://formsubmit.co/kontakt@fahrdienst-panda.de" method="POST"
                 >
                   <h2 className="title">Deine Fahrdienst-Schnellanfrage</h2>
                   <span>
@@ -318,9 +318,9 @@ export default function Contact() {
             <div className="col-lg-10 col-xl-9">
               <div className="contact__form-wrap">
                 <form
-                  onSubmit={handleCallbackSubmit}
                   id="callback-form"
                   className="contact__form"
+                  action="https://formsubmit.co/kontakt@fahrdienst-panda.de" method="POST"
                 >
                   <h2 className="title">
                     Oder nutzen Sie unseren einfachen Rückruf-Service!
