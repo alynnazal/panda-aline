@@ -9,7 +9,6 @@ const bannerBg = "/banner/banner_bg.jpg";
 const titleImg01 = "/banner/banner_title_img01.png";
 const titleImg02 = "/banner/banner_title_img02.png";
 const rightArrow = "/icon/right_arrow.svg";
-const bannerImg01 = "/banner/banner_img01.png";
 const petIcon01 = "/icon/pet_icon01.svg";
 const bannerShape01 = "/banner/banner_shape01.png";
 const bannerShape02 = "/banner/banner_shape02.png";
@@ -49,16 +48,8 @@ export const BannerOne = () => {
               </Link>
             </div>
           </div>
+          {/* TODO: REMOVING OF THE FOLLOWING DIV RESULTS IN CENTERING THE TEXT IN THE HOMEPAGE */}
           <div className="col-xl-7 col-lg-6 col-md-9">
-            <div className="banner__img text-end">
-              <img
-                style={{ opacity: 0}}
-                src={bannerImg01}
-                alt="img"
-                data-aos="fade-left"
-                data-aos-delay="800"
-              />
-            </div>
           </div>
         </div>
       </div>
