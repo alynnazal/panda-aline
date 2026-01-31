@@ -26,8 +26,8 @@ export const FooterThree = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="tel:+4917663263948" style={{ display: "inline-block", width: "100%" }}>
-                          +49 176 63263948
+                        <a href="tel:+493016638349" style={{ display: "inline-block", width: "100%" }}>
+                          030/16638349
                         </a>
                       </li>
                     </ul>

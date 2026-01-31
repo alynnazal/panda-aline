@@ -11,12 +11,13 @@ export const HeaderTop = () => {
             <ul className="tg-header__top-info left-side list-wrap">
               <li>
                 <i className="flaticon-mail"></i>
-                <a href="kontakt@fahrdienst-panda.de">
+                <a href="mailto:kontakt@fahrdienst-panda.de">
                   kontakt@fahrdienst-panda.de
                 </a>
               </li>
               <li>
-                <i className="flaticon-phone"></i> +49 176 63263948
+                <i className="flaticon-phone"></i> 
+                <a href="tel:+493016638349">030/16638349</a>
               </li>
             </ul>
           </div>
