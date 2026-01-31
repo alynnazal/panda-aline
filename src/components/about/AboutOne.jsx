@@ -22,8 +22,8 @@ export const AboutOne = () => {
         <div className="row align-items-center justify-content-center">
           <div className="col-xl-5 col-lg-6 col-md-8">
             <div className="about__img">
-              <img src={Behindert} alt="" />
-              <div className="video__box">
+              <img src={Behindert} alt="behindert Frau ins Auto geholfen" />
+              {/* <div className="video__box">
                 <div className="video__box-shape">
                   <img src={videoShape} alt="" className="injectable" />
                 </div>
@@ -39,7 +39,7 @@ export const AboutOne = () => {
                     </a>
                   }
                 />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-xl-7 col-lg-6">
@@ -47,9 +47,9 @@ export const AboutOne = () => {
               <div className="section__title mb-20">
                 <span className="sub-title">
                   Mehr Über Uns
-                  <strong className="shake">
+                  {/* <strong className="shake">
                     <img src={petIcon} alt="" className="injectable" />
-                  </strong>
+                  </strong> */}
                 </span>
                 <h2 className="title" style={{ fontSize: "21px" }}>
                   Dein zuverlässiger Fahrdienst in Berlin & Brandenburg <br />
